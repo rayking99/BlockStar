@@ -12,7 +12,7 @@ I worked as a labourer on a precast concrete site. We had to move lots of blocks
 
 If a number of blocks have to move to their target locations, in a specific order, other blocks may need to accomodate these moves - otherwise they may be in the way and prevent the blocks from arriving at their destination. 
 
-The BlockStar algorithm was built for a genetic algorithm, where given n paths, the block would take a random one - fitness etc is calculated, there is  and passed through to the next generation.
+The BlockStar algorithm was built for a genetic algorithm, where given n paths, the block would take a random one - fitness etc is calculated and skills are passed through to the next generation.
 
 On these random results the BlockStar achieves: 
 Best: 86 Moves
