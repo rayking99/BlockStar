@@ -205,7 +205,7 @@ for iter in range(max_iters):
     loss.backward()
     optimizer.step()
 
-context = torch.tensor(encode("|Cr1"), dtype=torch.long, device=device).unsqueeze(0)
+context = torch.tensor(encode("|"), dtype=torch.long, device=device).unsqueeze(0)
 moves_out = decode(m.generate(context, max_new_tokens=500)[0].tolist())
 
 print(moves_out)
