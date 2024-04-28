@@ -4,7 +4,7 @@ import random
 import time
 
 # fmt: off
-state = [
+start_state = [
     ['W', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'L'],
     ['W', '-', '-', '-', '-', '-', '-', 'B', 'B', 'B', '-', '-', '-', '-', '-', '-', '-', 'L'],
     ['W', '-', '-', '-', '-', '-', '-', 'B', 'B', 'B', '-', '-', '-', 'T', 'T', 'T', '-', '-'],
@@ -1015,19 +1015,6 @@ class Population:
                     # test new target state with obstacle in area, and previous obstacle piece target state as -
 
 
-# fmt: off
-DIRECTIONS = ['up', 'down', 'left', 'right']
-PIECES = ['A', 'C', 'E', 'F', 'G', 'K','B', 'L', 'P', 'Q', 'T', 'U', 'V','M','D','W']
-# fmt: on
-POPULATION_SIZE = 100
-TOURNAMENT_SIZE = 10
-CROSSOVER_RATE = 0.8
-MUTATION_RATE = 0.4
-max_generations = 100
-
-puzzle = Puzzle(state, target_state, PIECES)
-
-
 def update_info(piece):
     INFO = puzzle.piece_info[piece]
     OB = INFO["obstacles"]
@@ -1046,9 +1033,10 @@ def update_info(piece):
     return INFO, OB, BTZ
 
 
-def non_a_star(obstacle, piece):
+def non_a_star(obstacle, piece, try_count_non_a_star=0):
     BTZ = puzzle.piece_info[piece]["btz"]
     PA = puzzle.piece_info[obstacle]["potential_areas"]
+    INFO = puzzle.piece_info[piece]
     PA_new = [
         area
         for area in PA
@@ -1062,69 +1050,117 @@ def non_a_star(obstacle, piece):
         ),
     )
     PA_dict = puzzle.create_pa_dict(piece, obstacle, PA_new)
-    if PA_dict:
-        # choose a random option from the top 5
-        top_5 = sorted(PA_dict, key=lambda x: PA_dict[x]["fitness"])[:5]
-        random_area = PA_dict[random.choice(top_5)]["area"]
-        path = puzzle.a_star_search(puzzle.state, obstacle, random_area)
-        if path:
-            for move in path:
-                try:
-                    puzzle.apply_move(*move)
-                except:
-                    non_a_star(obstacle, piece)
-
-
-for piece in puzzle.order_of_pieces:
-    INFO, OB, BTZ = update_info(piece)
-    try_count = 0
-    while OB != []:
-        if try_count < 3:
-            POD = puzzle.create_obstacle_dict(piece)
-            if POD != []:
-                best_option = random.choice(POD)
-                obs = best_option["obstacles"]
-                for obstacle in obs:
-                    path = best_option["obstacle_dict"][obstacle]["ob_path"]
-                    if path:
-                        try:
-                            for move in path:
-                                puzzle.apply_move(*move)
-                        except:
-                            non_a_star(obstacle, piece)
-                INFO, OB, BTZ = update_info(piece)
-            else:
-                for obstacle in OB:
-                    non_a_star(obstacle, piece)
-                    INFO, OB, BTZ = update_info(piece)
-            try_count += 1
+    if try_count_non_a_star < 100:
+        if PA_dict:
+            # print("PA DICT EXISTS - 1054")
+            # choose a random option from the top 5
+            top_5 = sorted(PA_dict, key=lambda x: PA_dict[x]["fitness"])[:5]
+            random_area = PA_dict[random.choice(top_5)]["area"]
+            # print("a star search")
+            path = puzzle.a_star_search(puzzle.state, obstacle, random_area)
+            if path:
+                # print("path exists - 1059")
+                for move in path:
+                    try:
+                        puzzle.apply_move(*move)
+                    except:
+                        try_count_non_a_star += 1
+                        non_a_star(obstacle, piece, try_count_non_a_star)
         else:
-            # move a random piece not in its target position
-            random_count = 0
-            if random_count < 2:
-                non_final_pieces = [
-                    piece
-                    for piece in puzzle.order_of_pieces
-                    if puzzle.piece_info[piece]["in_target_position"] == False
-                ]
-                random_piece = random.choice(non_final_pieces)
-                random_direction = random.choice(DIRECTIONS)
-                random_distance = random.randint(1, 10)
-                puzzle.apply_move(random_piece, random_direction, random_distance)
-                INFO, OB, BTZ = update_info(piece)
-    try:
-        puzzle.move_piece_to_target(piece, INFO["target_positions"])
-        INFO, OB, BTZ = update_info(piece)
-        if INFO["in_target_position"]:
-            continue
-    except:
-        PATH = INFO["a_star_path"]
-        if PATH:
-            for move in PATH:
-                puzzle.apply_move(*move)
-            INFO, OB, BTZ = update_info(piece)
-            if INFO["in_target_position"]:
-                continue
+            # print("PA DICT DOES NOT EXIST - 1066")
+            non_a_star(obstacle, piece)
+    else:
+        exit(0)
 
-print(puzzle.move_count)
-print(puzzle.move_register)
+
+results = []
+for i in range(1000):
+    # fmt: off
+    DIRECTIONS = ['up', 'down', 'left', 'right']
+    PIECES = ['A', 'C', 'E', 'F', 'G', 'K','B', 'L', 'P', 'Q', 'T', 'U', 'V','M','D','W']
+    # fmt: on
+    POPULATION_SIZE = 100
+    TOURNAMENT_SIZE = 10
+    CROSSOVER_RATE = 0.8
+    MUTATION_RATE = 0.4
+    max_generations = 100
+    state_1 = copy.deepcopy(start_state)
+    puzzle = Puzzle(state_1, target_state, PIECES)
+    try:
+        for piece in puzzle.order_of_pieces:
+            # print("new piece", piece)
+            INFO, OB, BTZ = update_info(piece)
+            try_count = 0
+            while OB != []:
+                # print("obstacle", OB)
+                if try_count < 3:
+                    # print("inside try < 3 1086")
+                    POD = puzzle.create_obstacle_dict(piece)
+                    if POD != []:
+                        best_option = random.choice(POD)
+                        obs = best_option["obstacles"]
+                        for obstacle in obs:
+                            path = best_option["obstacle_dict"][obstacle]["ob_path"]
+                            if path:
+                                # print("path exists 1094")
+                                try:
+                                    for move in path:
+                                        # print("1097")
+                                        puzzle.apply_move(*move)
+                                except:
+                                    # print("Non a star")
+                                    non_a_star(obstacle, piece)
+                        INFO, OB, BTZ = update_info(piece)
+                    else:
+                        for obstacle in OB:
+                            # print("1105 - ob in ob")
+                            non_a_star(obstacle, piece)
+                            INFO, OB, BTZ = update_info(piece)
+                    try_count += 1
+                else:
+                    # move a random piece not in its target position
+                    random_count = 0
+                    if random_count < 2:
+                        non_final_pieces = [
+                            piece
+                            for piece in puzzle.order_of_pieces
+                            if puzzle.piece_info[piece]["in_target_position"] == False
+                        ]
+                        random_piece = random.choice(non_final_pieces)
+                        random_direction = random.choice(DIRECTIONS)
+                        random_distance = random.randint(1, 10)
+                        puzzle.apply_move(
+                            random_piece, random_direction, random_distance
+                        )
+                        # print("random move 1129")
+                        INFO, OB, BTZ = update_info(piece)
+                        random_count += 1
+            try:
+                # print("1133 - moving piece to target")
+                puzzle.move_piece_to_target(piece, INFO["target_positions"])
+                INFO, OB, BTZ = update_info(piece)
+                # print("1136 - piece in target position")
+                if INFO["in_target_position"]:
+                    continue
+            except:
+                PATH = INFO["a_star_path"]
+                # print("EXCEPTION 1141")
+                if PATH:
+                    for move in PATH:
+                        # print("move in path 1144")
+                        puzzle.apply_move(*move)
+                    INFO, OB, BTZ = update_info(piece)
+                    if INFO["in_target_position"]:
+                        # print("piece in target position")
+                        continue
+        print(puzzle.move_count)
+        print(puzzle.move_register)
+        results.append(puzzle.move_register)
+        with open("results.txt", "a") as f:
+            f.write(str(puzzle.move_register) + "\n")
+        # reset the puzzle
+    except:
+        pass
+
+
+print(results)
