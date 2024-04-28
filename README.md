@@ -23,7 +23,7 @@ Results from successful BlockStar runs are saved to results.txt, fed into a tran
 
 Plug the moves back into the BlockStar at the end to evaluate. 
 
-```
+```python
 
 DIRECTIONS = ['up', 'down', 'left', 'right']
 PIECES = ['A', 'C', 'E', 'F', 'G', 'K','B', 'L', 'P', 'Q', 'T', 'U', 'V','M','D','W']
