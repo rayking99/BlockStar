@@ -8,7 +8,7 @@ If a number of blocks have to move to their target locations, in a specific orde
 
 Results from successful BlockStar runs are saved to results.txt, fed into a transformer to train a language model, and decoded back into moves. 
 
-Needs some fine-tuning, but the 
+Plug the moves back into the BlockStar at the end to evaluate. 
 
 Inspired by 
 - SearchFormer [(FacebookResearch) ](https://github.com/facebookresearch/searchformer)
@@ -18,10 +18,3 @@ Inspired by
 
 **AgentFormer** - A character level transformer with a converter for the inputs and outputs from BlockStar. 
 
-```
-
-Output:
-
-[['C', 'right', 1], ['C', 'down', 2], ['C', 'right', 2], ['Q', 'up', 6], ['G', 'left', 3] ... ['T', 'up', 3]]
-
-```
