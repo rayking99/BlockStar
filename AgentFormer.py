@@ -6,10 +6,10 @@ from torch.nn import functional as F
 # fmt: off
 torch.manual_seed(1337)
 
-batch_size = 32
-block_size = 128
+batch_size = 8
+block_size = 64
 max_iters = 5000
-eval_interval = 500
+eval_interval = 200
 learning_rate = 0.0001
 device = torch.device("mps")
 eval_iters = 200
@@ -29,7 +29,7 @@ def open_text():
         f_.append([x[0] + replace_dict[x[1]] + str(x[2]) for x in i])
     strings = ["|" + " ".join(i) + "." for i in f_]
     data_chars = " ".join(strings)
-    move_vocab = list(set([item for sublist in f_ for item in sublist])) + [' ']
+    move_vocab = list(set([item for sublist in f_ for item in sublist])) + [' ', '|', '.']
     return data_chars, move_vocab
 
 
@@ -205,12 +205,12 @@ for iter in range(max_iters):
     loss.backward()
     optimizer.step()
 
-context = torch.tensor(encode("Cr1"), dtype=torch.long, device=device).unsqueeze(0)
+context = torch.tensor(encode("|Cr1"), dtype=torch.long, device=device).unsqueeze(0)
 moves_out = decode(m.generate(context, max_new_tokens=500)[0].tolist())
 
 print(moves_out)
 
-moves_out_ = moves_out.split()
+moves_out_ = moves_out.split('.')[0].replace('|', '').split(' ')
 moves_out_not = [x for x in moves_out_ if x not in moves]
 
 
@@ -218,14 +218,14 @@ print(moves_out_not)
 
 
 moves_converted = []
-for i in moves_out:
+for i in moves_out_:
     # char 0 is the letter, char 1 is the direction, and the rest is the number
     try:
         s = [i[0], i[1], i[2:]]
         s[2] = int(s[2])
         s[1] = list(replace_dict.keys())[list(replace_dict.values()).index(s[1])]
     except:
-        moves_out.remove(i)
+        moves_out_.remove(i)
     # convert back to original
     moves_converted.append(s)
 
