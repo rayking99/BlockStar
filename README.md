@@ -15,9 +15,9 @@ If a number of blocks have to move to their target locations, in a specific orde
 The BlockStar algorithm was built for a genetic algorithm, where given n paths, the block would take a random one - fitness etc is calculated and skills are passed through to the next generation.
 
 On these random results the BlockStar achieves: 
-Best: 86 Moves
-Worst: 314 Moves (but also many failures)
-Average: ~133 Moves. 
+- Best: 86 Moves
+- Worst: 314 Moves (but also many failures)
+- Average: ~133 Moves. 
 
 Results from successful BlockStar runs are saved to results.txt, fed into a transformer to train a language model, and decoded back into moves. 
 
