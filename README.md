@@ -2,7 +2,7 @@
 
 I worked as a labourer on a precast concrete site. We had to move lots of blocks around, and would often do way more work than necessary. 
 
-![in action](https://raw.githubusercontent.com/rayking99/BlockStar/main/GA.gif?token=GHSAT0AAAAAACK4JQVXIRNKKVF4AEAXBWLWZRNY5PA)
+![in action]([https://raw.githubusercontent.com/rayking99/BlockStar/main/GA.gif?token=GHSAT0AAAAAACK4JQVXIRNKKVF4AEAXBWLWZRNY5PA](https://raw.githubusercontent.com/rayking99/BlockStar/main/GA.gif))
 
 If a number of blocks have to move to their target locations, in a specific order, other blocks may need to accomodate these moves - otherwise they may be in the way and prevent the blocks from arriving at their destination. 
 
