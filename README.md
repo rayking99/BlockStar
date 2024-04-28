@@ -23,6 +23,20 @@ Results from successful BlockStar runs are saved to results.txt, fed into a tran
 
 Plug the moves back into the BlockStar at the end to evaluate. 
 
+```
+
+DIRECTIONS = ['up', 'down', 'left', 'right']
+PIECES = ['A', 'C', 'E', 'F', 'G', 'K','B', 'L', 'P', 'Q', 'T', 'U', 'V','M','D','W']
+
+state_1 = copy.deepcopy(start_state)
+puzzle = Puzzle(state_1, target_state, PIECES)
+
+moves = [['C', 'right', 1], ...['F', 'left', 1], ['F', 'up', 4]]
+
+for move in moves:
+    puzzle.apply_move(*move)
+```
+
 Inspired by 
 - SearchFormer [(FacebookResearch) ](https://github.com/facebookresearch/searchformer)
 - 'Let's build GPT: from scratch, in code, spelled out.' [(Karpathy)](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=88s)
