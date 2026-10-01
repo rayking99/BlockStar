@@ -1,0 +1,512 @@
+{
+  "input": "benchmarks/extended-best.json",
+  "initial_score": 37,
+  "seed": 0,
+  "restarts": 100,
+  "passes": 12,
+  "puzzle_sha256": "70a88505e646d9bb3f81dd9a4887dd02f26b83570530476d46498a664eb66bb3",
+  "final_score": 37,
+  "elapsed_seconds": 15.814582625054754,
+  "history": [
+    {
+      "restart": 0,
+      "score": 37,
+      "elapsed_seconds": 0.18208924995269626
+    },
+    {
+      "restart": 1,
+      "score": 37,
+      "elapsed_seconds": 0.34886758297216147
+    },
+    {
+      "restart": 2,
+      "score": 37,
+      "elapsed_seconds": 0.5087035830365494
+    },
+    {
+      "restart": 3,
+      "score": 37,
+      "elapsed_seconds": 0.6553855000529438
+    },
+    {
+      "restart": 4,
+      "score": 37,
+      "elapsed_seconds": 0.8087241660105065
+    },
+    {
+      "restart": 5,
+      "score": 37,
+      "elapsed_seconds": 0.9597486660350114
+    },
+    {
+      "restart": 6,
+      "score": 37,
+      "elapsed_seconds": 1.113468541065231
+    },
+    {
+      "restart": 7,
+      "score": 37,
+      "elapsed_seconds": 1.2713846249971539
+    },
+    {
+      "restart": 8,
+      "score": 37,
+      "elapsed_seconds": 1.4329842500155792
+    },
+    {
+      "restart": 9,
+      "score": 37,
+      "elapsed_seconds": 1.5914042909862474
+    },
+    {
+      "restart": 10,
+      "score": 37,
+      "elapsed_seconds": 1.7429679159540683
+    },
+    {
+      "restart": 11,
+      "score": 37,
+      "elapsed_seconds": 1.8950050410348922
+    },
+    {
+      "restart": 12,
+      "score": 37,
+      "elapsed_seconds": 2.0486808329587802
+    },
+    {
+      "restart": 13,
+      "score": 37,
+      "elapsed_seconds": 2.2011602909769863
+    },
+    {
+      "restart": 14,
+      "score": 37,
+      "elapsed_seconds": 2.3503272080561146
+    },
+    {
+      "restart": 15,
+      "score": 37,
+      "elapsed_seconds": 2.504631291027181
+    },
+    {
+      "restart": 16,
+      "score": 37,
+      "elapsed_seconds": 2.657051583053544
+    },
+    {
+      "restart": 17,
+      "score": 37,
+      "elapsed_seconds": 2.8106938749551773
+    },
+    {
+      "restart": 18,
+      "score": 37,
+      "elapsed_seconds": 2.963308749953285
+    },
+    {
+      "restart": 19,
+      "score": 37,
+      "elapsed_seconds": 3.107612624997273
+    },
+    {
+      "restart": 20,
+      "score": 37,
+      "elapsed_seconds": 3.2633614579681307
+    },
+    {
+      "restart": 21,
+      "score": 37,
+      "elapsed_seconds": 3.4125192500650883
+    },
+    {
+      "restart": 22,
+      "score": 37,
+      "elapsed_seconds": 3.5642886250279844
+    },
+    {
+      "restart": 23,
+      "score": 37,
+      "elapsed_seconds": 3.713673625024967
+    },
+    {
+      "restart": 24,
+      "score": 37,
+      "elapsed_seconds": 3.862329791067168
+    },
+    {
+      "restart": 25,
+      "score": 37,
+      "elapsed_seconds": 4.014678749954328
+    },
+    {
+      "restart": 26,
+      "score": 37,
+      "elapsed_seconds": 4.173160083009861
+    },
+    {
+      "restart": 27,
+      "score": 37,
+      "elapsed_seconds": 4.329693124978803
+    },
+    {
+      "restart": 28,
+      "score": 37,
+      "elapsed_seconds": 4.483964415965602
+    },
+    {
+      "restart": 29,
+      "score": 37,
+      "elapsed_seconds": 4.632873250055127
+    },
+    {
+      "restart": 30,
+      "score": 37,
+      "elapsed_seconds": 4.791074624983594
+    },
+    {
+      "restart": 31,
+      "score": 37,
+      "elapsed_seconds": 4.949329124996439
+    },
+    {
+      "restart": 32,
+      "score": 37,
+      "elapsed_seconds": 5.108708375017159
+    },
+    {
+      "restart": 33,
+      "score": 37,
+      "elapsed_seconds": 5.2692730410490185
+    },
+    {
+      "restart": 34,
+      "score": 37,
+      "elapsed_seconds": 5.418753291014582
+    },
+    {
+      "restart": 35,
+      "score": 37,
+      "elapsed_seconds": 5.572802208014764
+    },
+    {
+      "restart": 36,
+      "score": 37,
+      "elapsed_seconds": 5.735853333026171
+    },
+    {
+      "restart": 37,
+      "score": 37,
+      "elapsed_seconds": 5.894986458006315
+    },
+    {
+      "restart": 38,
+      "score": 37,
+      "elapsed_seconds": 6.050880208029412
+    },
+    {
+      "restart": 39,
+      "score": 37,
+      "elapsed_seconds": 6.205694500007667
+    },
+    {
+      "restart": 40,
+      "score": 37,
+      "elapsed_seconds": 6.357151750009507
+    },
+    {
+      "restart": 41,
+      "score": 37,
+      "elapsed_seconds": 6.514475082978606
+    },
+    {
+      "restart": 42,
+      "score": 37,
+      "elapsed_seconds": 6.668311250046827
+    },
+    {
+      "restart": 43,
+      "score": 37,
+      "elapsed_seconds": 6.82505162502639
+    },
+    {
+      "restart": 44,
+      "score": 37,
+      "elapsed_seconds": 6.994278999976814
+    },
+    {
+      "restart": 45,
+      "score": 37,
+      "elapsed_seconds": 7.154002625029534
+    },
+    {
+      "restart": 46,
+      "score": 37,
+      "elapsed_seconds": 7.313462999998592
+    },
+    {
+      "restart": 47,
+      "score": 37,
+      "elapsed_seconds": 7.468520708032884
+    },
+    {
+      "restart": 48,
+      "score": 37,
+      "elapsed_seconds": 7.626316249952652
+    },
+    {
+      "restart": 49,
+      "score": 37,
+      "elapsed_seconds": 7.780063624959439
+    },
+    {
+      "restart": 50,
+      "score": 37,
+      "elapsed_seconds": 7.937940208008513
+    },
+    {
+      "restart": 51,
+      "score": 37,
+      "elapsed_seconds": 8.10691637499258
+    },
+    {
+      "restart": 52,
+      "score": 37,
+      "elapsed_seconds": 8.273725040955469
+    },
+    {
+      "restart": 53,
+      "score": 37,
+      "elapsed_seconds": 8.435308624990284
+    },
+    {
+      "restart": 54,
+      "score": 37,
+      "elapsed_seconds": 8.5914227910107
+    },
+    {
+      "restart": 55,
+      "score": 37,
+      "elapsed_seconds": 8.753550541005097
+    },
+    {
+      "restart": 56,
+      "score": 37,
+      "elapsed_seconds": 8.911808000062592
+    },
+    {
+      "restart": 57,
+      "score": 37,
+      "elapsed_seconds": 9.081411666003987
+    },
+    {
+      "restart": 58,
+      "score": 37,
+      "elapsed_seconds": 9.25283087498974
+    },
+    {
+      "restart": 59,
+      "score": 37,
+      "elapsed_seconds": 9.407714082975872
+    },
+    {
+      "restart": 60,
+      "score": 37,
+      "elapsed_seconds": 9.567714625038207
+    },
+    {
+      "restart": 61,
+      "score": 37,
+      "elapsed_seconds": 9.722910040989518
+    },
+    {
+      "restart": 62,
+      "score": 37,
+      "elapsed_seconds": 9.877947875065729
+    },
+    {
+      "restart": 63,
+      "score": 37,
+      "elapsed_seconds": 10.036546749994159
+    },
+    {
+      "restart": 64,
+      "score": 37,
+      "elapsed_seconds": 10.19966475002002
+    },
+    {
+      "restart": 65,
+      "score": 37,
+      "elapsed_seconds": 10.364532832987607
+    },
+    {
+      "restart": 66,
+      "score": 37,
+      "elapsed_seconds": 10.518978749983944
+    },
+    {
+      "restart": 67,
+      "score": 37,
+      "elapsed_seconds": 10.671916082967073
+    },
+    {
+      "restart": 68,
+      "score": 37,
+      "elapsed_seconds": 10.832622666028328
+    },
+    {
+      "restart": 69,
+      "score": 37,
+      "elapsed_seconds": 10.991104749962687
+    },
+    {
+      "restart": 70,
+      "score": 37,
+      "elapsed_seconds": 11.161117249983363
+    },
+    {
+      "restart": 71,
+      "score": 37,
+      "elapsed_seconds": 11.316222083056346
+    },
+    {
+      "restart": 72,
+      "score": 37,
+      "elapsed_seconds": 11.47141883301083
+    },
+    {
+      "restart": 73,
+      "score": 37,
+      "elapsed_seconds": 11.636668000021018
+    },
+    {
+      "restart": 74,
+      "score": 37,
+      "elapsed_seconds": 11.780244041001424
+    },
+    {
+      "restart": 75,
+      "score": 37,
+      "elapsed_seconds": 11.936218874994665
+    },
+    {
+      "restart": 76,
+      "score": 37,
+      "elapsed_seconds": 12.086707707960159
+    },
+    {
+      "restart": 77,
+      "score": 37,
+      "elapsed_seconds": 12.232487707980908
+    },
+    {
+      "restart": 78,
+      "score": 37,
+      "elapsed_seconds": 12.38765233301092
+    },
+    {
+      "restart": 79,
+      "score": 37,
+      "elapsed_seconds": 12.531418874976225
+    },
+    {
+      "restart": 80,
+      "score": 37,
+      "elapsed_seconds": 12.679459291044623
+    },
+    {
+      "restart": 81,
+      "score": 37,
+      "elapsed_seconds": 12.829493000055663
+    },
+    {
+      "restart": 82,
+      "score": 37,
+      "elapsed_seconds": 12.999511250061914
+    },
+    {
+      "restart": 83,
+      "score": 37,
+      "elapsed_seconds": 13.17383270803839
+    },
+    {
+      "restart": 84,
+      "score": 37,
+      "elapsed_seconds": 13.348147165961564
+    },
+    {
+      "restart": 85,
+      "score": 37,
+      "elapsed_seconds": 13.52520779101178
+    },
+    {
+      "restart": 86,
+      "score": 37,
+      "elapsed_seconds": 13.697819166001864
+    },
+    {
+      "restart": 87,
+      "score": 37,
+      "elapsed_seconds": 13.860295541002415
+    },
+    {
+      "restart": 88,
+      "score": 37,
+      "elapsed_seconds": 14.026994624990039
+    },
+    {
+      "restart": 89,
+      "score": 37,
+      "elapsed_seconds": 14.18994508299511
+    },
+    {
+      "restart": 90,
+      "score": 37,
+      "elapsed_seconds": 14.352749790996313
+    },
+    {
+      "restart": 91,
+      "score": 37,
+      "elapsed_seconds": 14.499568665982224
+    },
+    {
+      "restart": 92,
+      "score": 37,
+      "elapsed_seconds": 14.656021708040498
+    },
+    {
+      "restart": 93,
+      "score": 37,
+      "elapsed_seconds": 14.8254200409865
+    },
+    {
+      "restart": 94,
+      "score": 37,
+      "elapsed_seconds": 14.987051625037566
+    },
+    {
+      "restart": 95,
+      "score": 37,
+      "elapsed_seconds": 15.14168925001286
+    },
+    {
+      "restart": 96,
+      "score": 37,
+      "elapsed_seconds": 15.305926915956661
+    },
+    {
+      "restart": 97,
+      "score": 37,
+      "elapsed_seconds": 15.468494500033557
+    },
+    {
+      "restart": 98,
+      "score": 37,
+      "elapsed_seconds": 15.631549166049808
+    },
+    {
+      "restart": 99,
+      "score": 37,
+      "elapsed_seconds": 15.79373137501534
+    }
+  ]
+}

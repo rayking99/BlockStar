@@ -1,0 +1,72 @@
+{
+  "input": "benchmarks/large-yard/champion.json",
+  "initial_score": 64,
+  "seed": 0,
+  "restarts": 12,
+  "passes": 8,
+  "puzzle_sha256": "def6600914c99e4e5abdc05e942aee641e5136eb7443181d6fc4ae2e11a8f6fe",
+  "final_score": 64,
+  "elapsed_seconds": 20.261358791962266,
+  "history": [
+    {
+      "restart": 0,
+      "score": 64,
+      "elapsed_seconds": 1.7599555830238387
+    },
+    {
+      "restart": 1,
+      "score": 64,
+      "elapsed_seconds": 3.380011082976125
+    },
+    {
+      "restart": 2,
+      "score": 64,
+      "elapsed_seconds": 4.980990874930285
+    },
+    {
+      "restart": 3,
+      "score": 64,
+      "elapsed_seconds": 6.569378957967274
+    },
+    {
+      "restart": 4,
+      "score": 64,
+      "elapsed_seconds": 8.222627957933582
+    },
+    {
+      "restart": 5,
+      "score": 64,
+      "elapsed_seconds": 10.029941499931738
+    },
+    {
+      "restart": 6,
+      "score": 64,
+      "elapsed_seconds": 11.816227957955562
+    },
+    {
+      "restart": 7,
+      "score": 64,
+      "elapsed_seconds": 13.586409916984849
+    },
+    {
+      "restart": 8,
+      "score": 64,
+      "elapsed_seconds": 15.249394416925497
+    },
+    {
+      "restart": 9,
+      "score": 64,
+      "elapsed_seconds": 16.95883945794776
+    },
+    {
+      "restart": 10,
+      "score": 64,
+      "elapsed_seconds": 18.588511958019808
+    },
+    {
+      "restart": 11,
+      "score": 64,
+      "elapsed_seconds": 20.25819479196798
+    }
+  ]
+}

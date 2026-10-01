@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "puzzle_sha256": "def6600914c99e4e5abdc05e942aee641e5136eb7443181d6fc4ae2e11a8f6fe",
+  "rows": 28,
+  "columns": 30,
+  "movable_pieces": 24,
+  "fixed_objects": 2,
+  "fixed_cells": 48,
+  "best_moves": 64,
+  "unit_distance": 640,
+  "coordinate_lower_bound": 44,
+  "fixed_terrain_lower_bound": 46,
+  "verified_states": 65,
+  "obstacles_unchanged_in_every_state": true,
+  "solved": true,
+  "selected_from": "benchmarks/large-yard/champion.json",
+  "tests_passed": 31,
+  "searches": [
+    {
+      "config": {
+        "trials": 16,
+        "seed": 0,
+        "adaptive": true,
+        "optimize_passes": 2,
+        "refine_margin": 3,
+        "explore": false
+      },
+      "successes": 4,
+      "failures": 12,
+      "raw_best": 82,
+      "best_score": 71,
+      "elapsed_seconds": 4.887345166993327
+    },
+    {
+      "config": {
+        "trials": 200,
+        "seed": 2026,
+        "adaptive": true,
+        "optimize_passes": 6,
+        "refine_margin": 8,
+        "explore": true
+      },
+      "successes": 88,
+      "failures": 112,
+      "raw_best": 76,
+      "best_score": 64,
+      "elapsed_seconds": 53.3378035830101
+    },
+    {
+      "config": {
+        "trials": 64,
+        "seed": 7,
+        "adaptive": true,
+        "optimize_passes": 4,
+        "refine_margin": 20,
+        "explore": true
+      },
+      "successes": 19,
+      "failures": 45,
+      "raw_best": 73,
+      "best_score": 65,
+      "elapsed_seconds": 37.95050558296498
+    }
+  ]
+}

@@ -1,0 +1,4717 @@
+{
+  "schema_version": 1,
+  "puzzle_sha256": "70a88505e646d9bb3f81dd9a4887dd02f26b83570530476d46498a664eb66bb3",
+  "puzzle": "BlockStar original 20x18",
+  "config": {
+    "trials": 300,
+    "seed": 37,
+    "adaptive": false,
+    "optimize_passes": 0,
+    "refine_margin": 3
+  },
+  "environment": {
+    "python": "3.14.6",
+    "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64"
+  },
+  "elapsed_seconds": 7.6433424999704584,
+  "trials": 300,
+  "successes": 221,
+  "failures": 79,
+  "raw_best": 43,
+  "best_score": 43,
+  "lower_bound": 30,
+  "refinements": 0,
+  "incumbents": [
+    {
+      "trial": 0,
+      "raw_score": 51,
+      "score": 51,
+      "elapsed_seconds": 0.04055591695941985
+    },
+    {
+      "trial": 1,
+      "raw_score": 49,
+      "score": 49,
+      "elapsed_seconds": 0.05821820895653218
+    },
+    {
+      "trial": 5,
+      "raw_score": 48,
+      "score": 48,
+      "elapsed_seconds": 0.1861507089342922
+    },
+    {
+      "trial": 8,
+      "raw_score": 47,
+      "score": 47,
+      "elapsed_seconds": 0.2581742500187829
+    },
+    {
+      "trial": 9,
+      "raw_score": 46,
+      "score": 46,
+      "elapsed_seconds": 0.28679887496400625
+    },
+    {
+      "trial": 23,
+      "raw_score": 44,
+      "score": 44,
+      "elapsed_seconds": 0.6647044169949368
+    },
+    {
+      "trial": 140,
+      "raw_score": 43,
+      "score": 43,
+      "elapsed_seconds": 3.6317289589205757
+    }
+  ],
+  "elites": [
+    {
+      "mean_raw_cost": 44.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 45.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 45.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 45.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.0,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    }
+  ],
+  "records": [
+    {
+      "trial": 0,
+      "seed": 653788183231214505,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 1,
+      "seed": 8074913571789985971,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 2,
+      "seed": 8427494490802343552,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 3,
+      "seed": 7807197374064041430,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 4,
+      "seed": 2663668667969041367,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 5,
+      "seed": 913324919354224272,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 6,
+      "seed": 7620478186405336070,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 7,
+      "seed": 7975475936344132338,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 8,
+      "seed": 6754470858657900080,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 9,
+      "seed": 1162549075023631268,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 10,
+      "seed": 139798307894438866,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 11,
+      "seed": 6657387294837990008,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 12,
+      "seed": 4147933538403959040,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 13,
+      "seed": 5974956561523727062,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 14,
+      "seed": 400309535711893848,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 15,
+      "seed": 249122434305750662,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 16,
+      "seed": 5747349510007934006,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 17,
+      "seed": 4191972510072454335,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 18,
+      "seed": 5565661678291103115,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 19,
+      "seed": 776044573812796051,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 20,
+      "seed": 5028702463338093775,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 21,
+      "seed": 3755719474868872504,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 22,
+      "seed": 2640558729009976856,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 23,
+      "seed": 4913992459316972726,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 24,
+      "seed": 8093595497033137717,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 25,
+      "seed": 1936361444412360481,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 26,
+      "seed": 4920716191060088733,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 27,
+      "seed": 4411356643309694793,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 28,
+      "seed": 8178069115845742388,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 29,
+      "seed": 2401651337102468420,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 30,
+      "seed": 6468652827246086305,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 31,
+      "seed": 1805464613388171359,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 32,
+      "seed": 2754546811083691530,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 33,
+      "seed": 5322556778104891488,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 34,
+      "seed": 480063353001728946,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 35,
+      "seed": 3316913592029650411,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 36,
+      "seed": 2513303597460133660,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 37,
+      "seed": 2065203766417822984,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 38,
+      "seed": 3059872177966664223,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 39,
+      "seed": 6591863351501654488,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 40,
+      "seed": 1255285668976787292,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 41,
+      "seed": 4136185082603016395,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 42,
+      "seed": 3166474443329667855,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 43,
+      "seed": 8234135040452060524,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 44,
+      "seed": 1244500868825197400,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 45,
+      "seed": 1680385889307877463,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 46,
+      "seed": 5728426284598459809,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 47,
+      "seed": 4008322587614194068,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 48,
+      "seed": 4323834371724965489,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 49,
+      "seed": 8105808995272214215,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 50,
+      "seed": 9168992591348550622,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 51,
+      "seed": 5160406343832252975,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 52,
+      "seed": 4802120534829391734,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 53,
+      "seed": 4053876146336313156,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 54,
+      "seed": 6586000556258290358,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 55,
+      "seed": 3782251812499817054,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 56,
+      "seed": 6666721864874890689,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 57,
+      "seed": 2093222186241018486,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 58,
+      "seed": 6867140371895670283,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 59,
+      "seed": 3070469461194302678,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 60,
+      "seed": 5230891488222050714,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 61,
+      "seed": 5873727758462674209,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 62,
+      "seed": 9059889763363397345,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 63,
+      "seed": 5794225710848991972,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 64,
+      "seed": 8408715894166604393,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 65,
+      "seed": 9012495422239019572,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 66,
+      "seed": 2671018017280117386,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 67,
+      "seed": 6812939567643798572,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 68,
+      "seed": 3647140636724634165,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 69,
+      "seed": 2918621812409131600,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 70,
+      "seed": 3128301913554535551,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 71,
+      "seed": 5061854580698176508,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 72,
+      "seed": 4041241971897644912,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 73,
+      "seed": 325649506048125752,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 74,
+      "seed": 2083829797270621008,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 75,
+      "seed": 2884371039830154298,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 76,
+      "seed": 8810379980304854123,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 77,
+      "seed": 1295828215786388967,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 78,
+      "seed": 5452093148173923861,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 79,
+      "seed": 7259365681864847933,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 80,
+      "seed": 7707178522108404955,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 81,
+      "seed": 9162024170628902973,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 82,
+      "seed": 4941500962873479406,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 83,
+      "seed": 3043020715949174671,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 84,
+      "seed": 555576648118196874,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 85,
+      "seed": 3755285128772965887,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 86,
+      "seed": 1177588287666661926,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 87,
+      "seed": 4587821445618522133,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 88,
+      "seed": 8387813789656607840,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 89,
+      "seed": 6837085314321733445,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 90,
+      "seed": 2086269897900525387,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 91,
+      "seed": 2852384228129707932,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 92,
+      "seed": 150410440566028933,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 93,
+      "seed": 6196375343205835537,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 94,
+      "seed": 8698481556328806750,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 95,
+      "seed": 699646271743576475,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 96,
+      "seed": 523651544166737231,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 97,
+      "seed": 845723715956671739,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 98,
+      "seed": 4675243820297736165,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 99,
+      "seed": 4230020317717967831,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 100,
+      "seed": 6601655989790738082,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 101,
+      "seed": 9024382041915394794,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 102,
+      "seed": 9070526024633062796,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 103,
+      "seed": 7362984037444933670,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 104,
+      "seed": 6006366598818353530,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 105,
+      "seed": 6613166131345303043,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 106,
+      "seed": 2156377578454119613,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 107,
+      "seed": 7823020513735313806,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 108,
+      "seed": 3106127362446571029,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 109,
+      "seed": 7477392976806347333,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 110,
+      "seed": 5333623589548650267,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 111,
+      "seed": 8470760614638295985,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 112,
+      "seed": 8200212459070473465,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 113,
+      "seed": 5389196260638299680,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 114,
+      "seed": 6926157398305702993,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 115,
+      "seed": 1647873003708580794,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 116,
+      "seed": 5687726967902187934,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 117,
+      "seed": 948914842938276870,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 118,
+      "seed": 4371490922767755152,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 119,
+      "seed": 6918834015900938006,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 120,
+      "seed": 1127367180829827974,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 121,
+      "seed": 7482513215369081013,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 122,
+      "seed": 8565379011191109605,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 123,
+      "seed": 6354987900133899311,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 124,
+      "seed": 3680074899981016574,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 125,
+      "seed": 8823056040215265149,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 126,
+      "seed": 6570092474362334511,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 127,
+      "seed": 2604521674639972620,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 128,
+      "seed": 7212898677848044778,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 129,
+      "seed": 8952124738289724364,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 130,
+      "seed": 3104613610014879468,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 131,
+      "seed": 3302123337121087644,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 132,
+      "seed": 244314626331331163,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 133,
+      "seed": 4281331736542677244,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 134,
+      "seed": 8776752373034896627,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 135,
+      "seed": 1402927039306443514,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 136,
+      "seed": 2833070621352571532,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 137,
+      "seed": 8452561209692669172,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 138,
+      "seed": 25669976596006306,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 139,
+      "seed": 3116149890132584997,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 140,
+      "seed": 5995938518269506681,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 43,
+      "refined_score": null
+    },
+    {
+      "trial": 141,
+      "seed": 5548518649332231191,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 142,
+      "seed": 9151649009549339422,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 143,
+      "seed": 6969286120123080974,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 57,
+      "refined_score": null
+    },
+    {
+      "trial": 144,
+      "seed": 3417972938998790285,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 145,
+      "seed": 4420727676072768414,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 146,
+      "seed": 970007725027075865,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 147,
+      "seed": 5600387365705835595,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 148,
+      "seed": 2201798683045819245,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 149,
+      "seed": 1923004030720497060,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 150,
+      "seed": 4052565377476048796,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 151,
+      "seed": 6203208867401297743,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 152,
+      "seed": 9100773658252646264,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 153,
+      "seed": 5814777821871986869,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 154,
+      "seed": 3076873981585788564,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 155,
+      "seed": 1597127086164214289,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 156,
+      "seed": 4508353804290066140,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 157,
+      "seed": 987335142431536881,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 158,
+      "seed": 7907208523695001967,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 159,
+      "seed": 5277259202487218600,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 160,
+      "seed": 840825708101330094,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 161,
+      "seed": 4781557706465152225,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 162,
+      "seed": 8720327468853842961,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 163,
+      "seed": 4940044330969159691,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 164,
+      "seed": 8322561419351084070,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 165,
+      "seed": 4345346441257432205,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 166,
+      "seed": 5846066312799629118,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 167,
+      "seed": 5443992528483143148,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 168,
+      "seed": 8759703972706813139,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 169,
+      "seed": 433289944523150455,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 170,
+      "seed": 6041179821720190264,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 171,
+      "seed": 7071108484447002307,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 172,
+      "seed": 7984427372608957441,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 173,
+      "seed": 207720993515010769,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 174,
+      "seed": 6954988686995792669,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 175,
+      "seed": 1114427985988124987,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 176,
+      "seed": 4128691938184430875,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 177,
+      "seed": 6625583669639154563,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 178,
+      "seed": 7467710468855156629,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 179,
+      "seed": 1272773945906958541,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 180,
+      "seed": 5255402270015897476,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 181,
+      "seed": 6041699471707037272,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 182,
+      "seed": 7655229972455152494,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 183,
+      "seed": 8376138243486340841,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 184,
+      "seed": 2374654152693086332,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 185,
+      "seed": 8519696883469119760,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 186,
+      "seed": 3066928415382476239,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 187,
+      "seed": 2436377380007425998,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 188,
+      "seed": 7129876219023169803,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 189,
+      "seed": 3894153098195881772,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 190,
+      "seed": 2907845284920800344,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 191,
+      "seed": 7552712915664203001,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 192,
+      "seed": 3115629913913321530,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 193,
+      "seed": 3784952966344091187,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 194,
+      "seed": 6862304213393734412,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 195,
+      "seed": 6752332427292749615,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 196,
+      "seed": 7208837966014135086,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 197,
+      "seed": 6064494815187468888,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 198,
+      "seed": 8200788797193793279,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 199,
+      "seed": 7904173839896967651,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 200,
+      "seed": 3692610492067845602,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 201,
+      "seed": 5952448413623808697,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 202,
+      "seed": 871679880424481830,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 203,
+      "seed": 5822320295117222488,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 204,
+      "seed": 7814393442394597017,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 205,
+      "seed": 5384332635709241671,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 206,
+      "seed": 1459466852330107347,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 207,
+      "seed": 5208679376054412116,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 208,
+      "seed": 926302079431062904,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 209,
+      "seed": 9178215159137982551,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 210,
+      "seed": 3610173159881809563,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 211,
+      "seed": 3307908891370930513,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 212,
+      "seed": 7192882351929500472,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 213,
+      "seed": 3699336973502890493,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 214,
+      "seed": 1341931864797865983,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 215,
+      "seed": 2026407991093711274,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 59,
+      "refined_score": null
+    },
+    {
+      "trial": 216,
+      "seed": 5132877850748631151,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 217,
+      "seed": 4714098772154497767,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 218,
+      "seed": 2557205937992490636,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 219,
+      "seed": 84528365321075944,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 220,
+      "seed": 110572793099821183,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 221,
+      "seed": 1705386676166681102,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 222,
+      "seed": 7165119657352707730,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 223,
+      "seed": 5447871553145778475,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 224,
+      "seed": 1539722118716085634,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 225,
+      "seed": 6841806425643206879,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 226,
+      "seed": 742138118825198646,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 227,
+      "seed": 6583381082003844457,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 228,
+      "seed": 3684189312549484317,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 229,
+      "seed": 5883354359546494000,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 230,
+      "seed": 8655393269986809880,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 231,
+      "seed": 8780339772207316503,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 232,
+      "seed": 7454670893563245455,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 233,
+      "seed": 7688469393880096159,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 234,
+      "seed": 7846119173403409873,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 235,
+      "seed": 6932603251907875946,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 236,
+      "seed": 8014914141969477320,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 237,
+      "seed": 6737376661453017979,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 238,
+      "seed": 370769494738573443,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 239,
+      "seed": 6203851633201428370,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 240,
+      "seed": 6464506896673260679,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 241,
+      "seed": 628456545840012474,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 242,
+      "seed": 4100437949764124893,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 243,
+      "seed": 6380179822626608055,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 244,
+      "seed": 1042392168154172381,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 245,
+      "seed": 1506879723357791860,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 246,
+      "seed": 1223938085523991040,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 247,
+      "seed": 3962422598285511203,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 248,
+      "seed": 2300147324189032257,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 249,
+      "seed": 7581362339822767045,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 250,
+      "seed": 2115161586079481567,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 251,
+      "seed": 8029401980043234896,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 252,
+      "seed": 8691388258313407966,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 253,
+      "seed": 6401529956752842523,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 254,
+      "seed": 5005807368615239675,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 255,
+      "seed": 8151506186255292676,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 61,
+      "refined_score": null
+    },
+    {
+      "trial": 256,
+      "seed": 3111818767962172336,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 257,
+      "seed": 5098322980037309547,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 258,
+      "seed": 5533240680438559962,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 259,
+      "seed": 2808196469295174055,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 260,
+      "seed": 1789584580989439212,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 261,
+      "seed": 1609490084855561825,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 262,
+      "seed": 3436811126182901922,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 263,
+      "seed": 3457262240679006922,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 264,
+      "seed": 2385288146474007661,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 265,
+      "seed": 9025167576530869562,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 266,
+      "seed": 3752615683928275968,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 267,
+      "seed": 8421445235768535021,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 268,
+      "seed": 3888151038142666255,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 269,
+      "seed": 4063917662884496881,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 270,
+      "seed": 2797495755418491427,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 271,
+      "seed": 7901111807328178571,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 272,
+      "seed": 7666632087018553447,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 273,
+      "seed": 4624381039296610767,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 274,
+      "seed": 2059112400105686640,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 275,
+      "seed": 6439637029232242392,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 276,
+      "seed": 3573037827496178696,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 277,
+      "seed": 6465684780501185052,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 278,
+      "seed": 4037159459416634934,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 279,
+      "seed": 9065124491252484591,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 280,
+      "seed": 7757417688467301524,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 281,
+      "seed": 5538046223684928945,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 282,
+      "seed": 3004973480824702830,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 283,
+      "seed": 1968194554793404310,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 284,
+      "seed": 6134487333585788271,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 285,
+      "seed": 7546692655858106786,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 286,
+      "seed": 3355338260915285868,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 287,
+      "seed": 4514673057409958385,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 288,
+      "seed": 2576727293164210467,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 289,
+      "seed": 1738953508111661086,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 290,
+      "seed": 5391206737226044214,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 291,
+      "seed": 3203855990980779375,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 292,
+      "seed": 6112008791530984117,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 293,
+      "seed": 1691782179184462750,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 294,
+      "seed": 6862160010042801071,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 295,
+      "seed": 890163248066821979,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 296,
+      "seed": 3944382310818958212,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 297,
+      "seed": 7979301781469941029,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 298,
+      "seed": 4561994743779639807,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 58,
+      "refined_score": null
+    },
+    {
+      "trial": 299,
+      "seed": 1276006856574796117,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    }
+  ]
+}

@@ -1,0 +1,4681 @@
+{
+  "schema_version": 1,
+  "puzzle_sha256": "70a88505e646d9bb3f81dd9a4887dd02f26b83570530476d46498a664eb66bb3",
+  "puzzle": "BlockStar original 20x18",
+  "config": {
+    "trials": 300,
+    "seed": 23,
+    "adaptive": true,
+    "optimize_passes": 3,
+    "refine_margin": 3
+  },
+  "environment": {
+    "python": "3.14.6",
+    "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64"
+  },
+  "elapsed_seconds": 7.011062207981013,
+  "trials": 300,
+  "successes": 239,
+  "failures": 61,
+  "raw_best": 43,
+  "best_score": 40,
+  "lower_bound": 30,
+  "refinements": 2,
+  "incumbents": [
+    {
+      "trial": 0,
+      "raw_score": 50,
+      "score": 40,
+      "elapsed_seconds": 0.16406845790334046
+    }
+  ],
+  "elites": [
+    {
+      "mean_raw_cost": 44.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.3696280238545304,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.2269572113946159,
+        "temperature": 1.7326084183698154,
+        "order_noise": 6.140067206952802
+      }
+    },
+    {
+      "mean_raw_cost": 44.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.955661179924812
+      }
+    },
+    {
+      "mean_raw_cost": 45.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      }
+    },
+    {
+      "mean_raw_cost": 45.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.3816764332685163,
+        "parking_distance": 1.2858858651338438,
+        "goal_overlap": 1.6924132495442008,
+        "temperature": 1.9743480202043109,
+        "order_noise": 6.491217306898869
+      }
+    },
+    {
+      "mean_raw_cost": 45.5,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.8571809885813834,
+        "blocker_weight": 0.846471868703754,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.1972798736226691,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.0,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 46.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5106573757812539,
+        "blocker_weight": 1.81364639347443,
+        "parking_distance": 1.1049409104514358,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 2.271815730425745,
+        "order_noise": 6.736212401638263
+      }
+    },
+    {
+      "mean_raw_cost": 46.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2367150294877827,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.3225597294437418,
+        "goal_overlap": 2.4932039571933413,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.460395506172597
+      }
+    },
+    {
+      "mean_raw_cost": 46.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.460395506172597
+      }
+    },
+    {
+      "mean_raw_cost": 46.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.3193423306894654,
+        "blocker_weight": 1.082137594264288,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.681335104303908,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.418505204222531
+      }
+    },
+    {
+      "mean_raw_cost": 46.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.3193423306894654,
+        "blocker_weight": 1.151220628436039,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 1.7326084183698154,
+        "order_noise": 4.482190289802113
+      }
+    },
+    {
+      "mean_raw_cost": 46.5,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.8724964529035953,
+        "blocker_weight": 2.1679668599741913,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.955661179924812
+      }
+    }
+  ],
+  "records": [
+    {
+      "trial": 0,
+      "seed": 5348018157780456463,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 50,
+      "refined_score": 40
+    },
+    {
+      "trial": 1,
+      "seed": 315007719484658648,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 2,
+      "seed": 5658426562401212583,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 3,
+      "seed": 6994728764504192457,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 4,
+      "seed": 9190921951370221801,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.6515147062374027,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.333720721619039,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 5,
+      "seed": 361179117583265494,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.6515147062374027,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.333720721619039,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 6,
+      "seed": 3985332016692939738,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.6353749882985966,
+        "blocker_weight": 3.6710453939174776,
+        "parking_distance": 1.4359854391447988,
+        "goal_overlap": 0.17266358894765543,
+        "temperature": 3.915511780802521,
+        "order_noise": 7.069481793264059
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 7,
+      "seed": 5188588836991641711,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.6353749882985966,
+        "blocker_weight": 3.6710453939174776,
+        "parking_distance": 1.4359854391447988,
+        "goal_overlap": 0.17266358894765543,
+        "temperature": 3.915511780802521,
+        "order_noise": 7.069481793264059
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 8,
+      "seed": 3017607418922330719,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.04948990590089,
+        "blocker_weight": 1.5719555531809326,
+        "parking_distance": 0.3429444972954854,
+        "goal_overlap": 1.422199268139118,
+        "temperature": 3.589570018763996,
+        "order_noise": 7.087316375210042
+      },
+      "raw_score": 60,
+      "refined_score": null
+    },
+    {
+      "trial": 9,
+      "seed": 1518667627101345808,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.04948990590089,
+        "blocker_weight": 1.5719555531809326,
+        "parking_distance": 0.3429444972954854,
+        "goal_overlap": 1.422199268139118,
+        "temperature": 3.589570018763996,
+        "order_noise": 7.087316375210042
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 10,
+      "seed": 8388255309215278469,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.47609175438582024,
+        "blocker_weight": 0.1946658480171154,
+        "parking_distance": 1.1022578460006094,
+        "goal_overlap": 1.7184656846653135,
+        "temperature": 4.103315904362622,
+        "order_noise": 3.9696581759195855
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 11,
+      "seed": 4026836278229784086,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.47609175438582024,
+        "blocker_weight": 0.1946658480171154,
+        "parking_distance": 1.1022578460006094,
+        "goal_overlap": 1.7184656846653135,
+        "temperature": 4.103315904362622,
+        "order_noise": 3.9696581759195855
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 12,
+      "seed": 1049127907372721737,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.1660923862912578,
+        "goal_overlap": 0.7438247595892782,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 13,
+      "seed": 8210246018260521863,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.1660923862912578,
+        "goal_overlap": 0.7438247595892782,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 14,
+      "seed": 4398149769615715207,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.4092153123175165,
+        "blocker_weight": 1.6387527187578839,
+        "parking_distance": 1.2896865915785174,
+        "goal_overlap": 1.648263486530205,
+        "temperature": 0.2955176751901332,
+        "order_noise": 3.0
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 15,
+      "seed": 5446459811497078941,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.4092153123175165,
+        "blocker_weight": 1.6387527187578839,
+        "parking_distance": 1.2896865915785174,
+        "goal_overlap": 1.648263486530205,
+        "temperature": 0.2955176751901332,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 16,
+      "seed": 72716791082225045,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5973854237621675,
+        "blocker_weight": 2.7465004579264973,
+        "parking_distance": 1.3471982512419678,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 17,
+      "seed": 6957684765697919301,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5973854237621675,
+        "blocker_weight": 2.7465004579264973,
+        "parking_distance": 1.3471982512419678,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 18,
+      "seed": 1508938614957321757,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.878499558547268,
+        "blocker_weight": 3.745892676241352,
+        "parking_distance": 1.6070224107381876,
+        "goal_overlap": 2.380743421937387,
+        "temperature": 0.15090298552682346,
+        "order_noise": 7.855405430435298
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 19,
+      "seed": 8857664136955999518,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.878499558547268,
+        "blocker_weight": 3.745892676241352,
+        "parking_distance": 1.6070224107381876,
+        "goal_overlap": 2.380743421937387,
+        "temperature": 0.15090298552682346,
+        "order_noise": 7.855405430435298
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 20,
+      "seed": 140022983789884018,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.8053714500966813,
+        "blocker_weight": 0.3068368284217101,
+        "parking_distance": 0.4011809920972679,
+        "goal_overlap": 1.5352008424142705,
+        "temperature": 0.7453201157819459,
+        "order_noise": 3.6120554126521696
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 21,
+      "seed": 683318228054214299,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.8053714500966813,
+        "blocker_weight": 0.3068368284217101,
+        "parking_distance": 0.4011809920972679,
+        "goal_overlap": 1.5352008424142705,
+        "temperature": 0.7453201157819459,
+        "order_noise": 3.6120554126521696
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 22,
+      "seed": 875927315967446756,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5821520254872948,
+        "blocker_weight": 0.1946658480171154,
+        "parking_distance": 1.509056402048015,
+        "goal_overlap": 1.7184656846653135,
+        "temperature": 4.990017224263199,
+        "order_noise": 3.639415186458441
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 23,
+      "seed": 794542397506074330,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5821520254872948,
+        "blocker_weight": 0.1946658480171154,
+        "parking_distance": 1.509056402048015,
+        "goal_overlap": 1.7184656846653135,
+        "temperature": 4.990017224263199,
+        "order_noise": 3.639415186458441
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 24,
+      "seed": 2383231351896830031,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5085876410010567,
+        "blocker_weight": 0.1946658480171154,
+        "parking_distance": 1.1022578460006094,
+        "goal_overlap": 4.936325584483615,
+        "temperature": 4.103315904362622,
+        "order_noise": 2.551489915924405
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 25,
+      "seed": 7011823374004010106,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5085876410010567,
+        "blocker_weight": 0.1946658480171154,
+        "parking_distance": 1.1022578460006094,
+        "goal_overlap": 4.936325584483615,
+        "temperature": 4.103315904362622,
+        "order_noise": 2.551489915924405
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 26,
+      "seed": 3351781287726184383,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.7241686558890776,
+        "blocker_weight": 1.552825241066723,
+        "parking_distance": 1.7623458836933326,
+        "goal_overlap": 0.6974132327590985,
+        "temperature": 0.6980961453481103,
+        "order_noise": 3.0
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 27,
+      "seed": 8119553561554632013,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.7241686558890776,
+        "blocker_weight": 1.552825241066723,
+        "parking_distance": 1.7623458836933326,
+        "goal_overlap": 0.6974132327590985,
+        "temperature": 0.6980961453481103,
+        "order_noise": 3.0
+      },
+      "raw_score": 59,
+      "refined_score": null
+    },
+    {
+      "trial": 28,
+      "seed": 1172502204605820954,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.12828556677546768,
+        "blocker_weight": 0.1946658480171154,
+        "parking_distance": 1.1022578460006094,
+        "goal_overlap": 1.7184656846653135,
+        "temperature": 4.103315904362622,
+        "order_noise": 3.9696581759195855
+      },
+      "raw_score": 59,
+      "refined_score": null
+    },
+    {
+      "trial": 29,
+      "seed": 2238233101849137407,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.12828556677546768,
+        "blocker_weight": 0.1946658480171154,
+        "parking_distance": 1.1022578460006094,
+        "goal_overlap": 1.7184656846653135,
+        "temperature": 4.103315904362622,
+        "order_noise": 3.9696581759195855
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 30,
+      "seed": 410010985843050800,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.6515147062374027,
+        "parking_distance": 0.5029156993154873,
+        "goal_overlap": 1.333720721619039,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.280049599186192
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 31,
+      "seed": 2823557158306780406,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.6515147062374027,
+        "parking_distance": 0.5029156993154873,
+        "goal_overlap": 1.333720721619039,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.280049599186192
+      },
+      "raw_score": 58,
+      "refined_score": null
+    },
+    {
+      "trial": 32,
+      "seed": 1463355945057689101,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.385899787040024,
+        "blocker_weight": 0.6983273352330882,
+        "parking_distance": 3.7064521942254016,
+        "goal_overlap": 2.089637538513587,
+        "temperature": 1.552403754354914,
+        "order_noise": 3.007267455232503
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 33,
+      "seed": 1499583952309691027,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.385899787040024,
+        "blocker_weight": 0.6983273352330882,
+        "parking_distance": 3.7064521942254016,
+        "goal_overlap": 2.089637538513587,
+        "temperature": 1.552403754354914,
+        "order_noise": 3.007267455232503
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 34,
+      "seed": 154518936381262652,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.5082814636485239,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.3556983575918973,
+        "goal_overlap": 1.0633603880709601,
+        "temperature": 0.5143069913950403,
+        "order_noise": 2.2405239286854344
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 35,
+      "seed": 9161138131904870255,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.5082814636485239,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.3556983575918973,
+        "goal_overlap": 1.0633603880709601,
+        "temperature": 0.5143069913950403,
+        "order_noise": 2.2405239286854344
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 36,
+      "seed": 2904626240471613458,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.1132724106398242,
+        "blocker_weight": 3.3528716384657287,
+        "parking_distance": 2.447792054250126,
+        "goal_overlap": 2.496957357968181,
+        "temperature": 1.0395523275123137,
+        "order_noise": 9.650306210627594
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 37,
+      "seed": 2046695527260776858,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.1132724106398242,
+        "blocker_weight": 3.3528716384657287,
+        "parking_distance": 2.447792054250126,
+        "goal_overlap": 2.496957357968181,
+        "temperature": 1.0395523275123137,
+        "order_noise": 9.650306210627594
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 38,
+      "seed": 2124000532605190498,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 39,
+      "seed": 7936958144802553670,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 40,
+      "seed": 6941689216735887355,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.25697696159450306,
+        "blocker_weight": 1.7907078131729046,
+        "parking_distance": 1.4633580022762551,
+        "goal_overlap": 0.507162503899862,
+        "temperature": 0.39002422128127895,
+        "order_noise": 2.5815148687502116
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 41,
+      "seed": 3213902432573159913,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.25697696159450306,
+        "blocker_weight": 1.7907078131729046,
+        "parking_distance": 1.4633580022762551,
+        "goal_overlap": 0.507162503899862,
+        "temperature": 0.39002422128127895,
+        "order_noise": 2.5815148687502116
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 42,
+      "seed": 7386404815633251334,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.7827470166127464,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.627063196854475,
+        "order_noise": 3.6671384410038863
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 43,
+      "seed": 7423524563365825683,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.7827470166127464,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.627063196854475,
+        "order_noise": 3.6671384410038863
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 44,
+      "seed": 4533238598959593507,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 1.1093037895808202,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.9474320220657307,
+        "order_noise": 11.995707741419992
+      },
+      "raw_score": 62,
+      "refined_score": null
+    },
+    {
+      "trial": 45,
+      "seed": 1729003254403613424,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 1.1093037895808202,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.9474320220657307,
+        "order_noise": 11.995707741419992
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 46,
+      "seed": 2151297938600139599,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.09720450019942878,
+        "parking_distance": 0.3485301884439753,
+        "goal_overlap": 0.967808927614814,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 47,
+      "seed": 1137976393085520694,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.09720450019942878,
+        "parking_distance": 0.3485301884439753,
+        "goal_overlap": 0.967808927614814,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 59,
+      "refined_score": null
+    },
+    {
+      "trial": 48,
+      "seed": 8409697624347521143,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.7153507495290428,
+        "blocker_weight": 4.339126290201694,
+        "parking_distance": 1.1362620254069125,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.8453825898896217,
+        "order_noise": 10.872377127704683
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 49,
+      "seed": 5206025884639092564,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.7153507495290428,
+        "blocker_weight": 4.339126290201694,
+        "parking_distance": 1.1362620254069125,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.8453825898896217,
+        "order_noise": 10.872377127704683
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 50,
+      "seed": 5174905197740573333,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 51,
+      "seed": 3579970593629625229,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 52,
+      "seed": 7770093300622632519,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.9717779439792653,
+        "blocker_weight": 2.9362074616635687,
+        "parking_distance": 3.034563481902229,
+        "goal_overlap": 2.41923282152501,
+        "temperature": 1.2795432837584904,
+        "order_noise": 6.268665118282385
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 53,
+      "seed": 3701852094139841845,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.9717779439792653,
+        "blocker_weight": 2.9362074616635687,
+        "parking_distance": 3.034563481902229,
+        "goal_overlap": 2.41923282152501,
+        "temperature": 1.2795432837584904,
+        "order_noise": 6.268665118282385
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 54,
+      "seed": 4015861059144367218,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.7755032407020457,
+        "blocker_weight": 1.9351645921778238,
+        "parking_distance": 0.006287570857784974,
+        "goal_overlap": 1.2197062102120628,
+        "temperature": 4.812830974763037,
+        "order_noise": 10.38862719577881
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 55,
+      "seed": 131731905037518456,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.7755032407020457,
+        "blocker_weight": 1.9351645921778238,
+        "parking_distance": 0.006287570857784974,
+        "goal_overlap": 1.2197062102120628,
+        "temperature": 4.812830974763037,
+        "order_noise": 10.38862719577881
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 56,
+      "seed": 129493097205240880,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.5385310540668689,
+        "blocker_weight": 4.222884634191216,
+        "parking_distance": 1.1362620254069125,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.9317464390680954,
+        "order_noise": 10.658767715908597
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 57,
+      "seed": 12290898553670563,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.5385310540668689,
+        "blocker_weight": 4.222884634191216,
+        "parking_distance": 1.1362620254069125,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.9317464390680954,
+        "order_noise": 10.658767715908597
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 58,
+      "seed": 5411272736871381790,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.1441885460113064,
+        "blocker_weight": 4.339126290201694,
+        "parking_distance": 1.1362620254069125,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.8453825898896217,
+        "order_noise": 20.0
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 59,
+      "seed": 7761184304891214193,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.1441885460113064,
+        "blocker_weight": 4.339126290201694,
+        "parking_distance": 1.1362620254069125,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.8453825898896217,
+        "order_noise": 20.0
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 60,
+      "seed": 6296665323021565877,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.4752783719088747,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.0720999561523619,
+        "temperature": 0.7321928200984602,
+        "order_noise": 4.427343494525665
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 61,
+      "seed": 7084703679219160240,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.4752783719088747,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.0720999561523619,
+        "temperature": 0.7321928200984602,
+        "order_noise": 4.427343494525665
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 62,
+      "seed": 6872477092322168915,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.2873840983325286,
+        "blocker_weight": 4.662323129123926,
+        "parking_distance": 1.0362578018220567,
+        "goal_overlap": 0.4951978818530882,
+        "temperature": 1.702403804464796,
+        "order_noise": 10.317820442269795
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 63,
+      "seed": 8830566740300838996,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.2873840983325286,
+        "blocker_weight": 4.662323129123926,
+        "parking_distance": 1.0362578018220567,
+        "goal_overlap": 0.4951978818530882,
+        "temperature": 1.702403804464796,
+        "order_noise": 10.317820442269795
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 64,
+      "seed": 551025642091171831,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2372859559545737,
+        "blocker_weight": 0.12236572971598692,
+        "parking_distance": 0.7670665053155918,
+        "goal_overlap": 1.6093941054090906,
+        "temperature": 1.1660433400705745,
+        "order_noise": 2.6192416469339035
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 65,
+      "seed": 8898908761337489625,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2372859559545737,
+        "blocker_weight": 0.12236572971598692,
+        "parking_distance": 0.7670665053155918,
+        "goal_overlap": 1.6093941054090906,
+        "temperature": 1.1660433400705745,
+        "order_noise": 2.6192416469339035
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 66,
+      "seed": 7717647066111471051,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.449255331707908,
+        "blocker_weight": 3.813883347295535,
+        "parking_distance": 3.2571426906155905,
+        "goal_overlap": 1.3504829130324398,
+        "temperature": 2.709150480128738,
+        "order_noise": 0.8977893680937417
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 67,
+      "seed": 1583627711339280421,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.449255331707908,
+        "blocker_weight": 3.813883347295535,
+        "parking_distance": 3.2571426906155905,
+        "goal_overlap": 1.3504829130324398,
+        "temperature": 2.709150480128738,
+        "order_noise": 0.8977893680937417
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 68,
+      "seed": 2376452947293284231,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.9870899411549323,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.8445599302474411,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 1.1850187583301428,
+        "order_noise": 5.51805336359506
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 69,
+      "seed": 4557026849701285119,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.9870899411549323,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.8445599302474411,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 1.1850187583301428,
+        "order_noise": 5.51805336359506
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 70,
+      "seed": 1628712161167691706,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2905133922901908,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7838970803767384,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 1.1308630548811744,
+        "order_noise": 8.067566170154233
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 71,
+      "seed": 5485032841729142910,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2905133922901908,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7838970803767384,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 1.1308630548811744,
+        "order_noise": 8.067566170154233
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 72,
+      "seed": 1440829111900419485,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.687675188601145,
+        "blocker_weight": 1.3303923859654867,
+        "parking_distance": 0.47764052171063603,
+        "goal_overlap": 1.6507931613726006,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 73,
+      "seed": 406255854096561154,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.687675188601145,
+        "blocker_weight": 1.3303923859654867,
+        "parking_distance": 0.47764052171063603,
+        "goal_overlap": 1.6507931613726006,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 74,
+      "seed": 1415597250408521437,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.1136075762612538,
+        "blocker_weight": 2.484106675002279,
+        "parking_distance": 1.6759721261030671,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 75,
+      "seed": 4196490503769884564,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.1136075762612538,
+        "blocker_weight": 2.484106675002279,
+        "parking_distance": 1.6759721261030671,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 76,
+      "seed": 216071187192167095,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.5078101207299204,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.1951604247395871,
+        "order_noise": 3.5180781006823243
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 77,
+      "seed": 5702994160883482304,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.5078101207299204,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.1951604247395871,
+        "order_noise": 3.5180781006823243
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 78,
+      "seed": 3342460863484850859,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.881831000922317,
+        "blocker_weight": 3.1533362221418857,
+        "parking_distance": 0.8280854904475848,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.6235865500698182,
+        "order_noise": 9.333731512141563
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 79,
+      "seed": 1909258903686111106,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.881831000922317,
+        "blocker_weight": 3.1533362221418857,
+        "parking_distance": 0.8280854904475848,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.6235865500698182,
+        "order_noise": 9.333731512141563
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 80,
+      "seed": 2697676232726331511,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.881831000922317,
+        "blocker_weight": 3.1533362221418857,
+        "parking_distance": 0.9214565409034047,
+        "goal_overlap": 0.42757559807516005,
+        "temperature": 0.7051533489836883,
+        "order_noise": 9.413208452082175
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 81,
+      "seed": 5536424426276663003,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.881831000922317,
+        "blocker_weight": 3.1533362221418857,
+        "parking_distance": 0.9214565409034047,
+        "goal_overlap": 0.42757559807516005,
+        "temperature": 0.7051533489836883,
+        "order_noise": 9.413208452082175
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 82,
+      "seed": 4417845843599596125,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.9180848250495862,
+        "blocker_weight": 0.798899406823841,
+        "parking_distance": 1.0435183541173156,
+        "goal_overlap": 2.2463230517800414,
+        "temperature": 1.1193400604561667,
+        "order_noise": 7.368261076562701
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 83,
+      "seed": 1432364402801753282,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.9180848250495862,
+        "blocker_weight": 0.798899406823841,
+        "parking_distance": 1.0435183541173156,
+        "goal_overlap": 2.2463230517800414,
+        "temperature": 1.1193400604561667,
+        "order_noise": 7.368261076562701
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 84,
+      "seed": 8529101876885441915,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.339355703700593,
+        "parking_distance": 2.2715082833757076,
+        "goal_overlap": 2.482617904163368,
+        "temperature": 1.1360236443838063,
+        "order_noise": 9.147985629215022
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 85,
+      "seed": 2647062871302585140,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.339355703700593,
+        "parking_distance": 2.2715082833757076,
+        "goal_overlap": 2.482617904163368,
+        "temperature": 1.1360236443838063,
+        "order_noise": 9.147985629215022
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 86,
+      "seed": 4805227767706794139,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.5609753867842593,
+        "order_noise": 3.0283532503695523
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 87,
+      "seed": 2054055679182974258,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.5609753867842593,
+        "order_noise": 3.0283532503695523
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 88,
+      "seed": 7889703965974409686,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.1733885887697024,
+        "parking_distance": 0.8090623977914952,
+        "goal_overlap": 3.085861435242473,
+        "temperature": 1.6851703164214786,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 89,
+      "seed": 3994039427719070238,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.1733885887697024,
+        "parking_distance": 0.8090623977914952,
+        "goal_overlap": 3.085861435242473,
+        "temperature": 1.6851703164214786,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 90,
+      "seed": 1164147099900498195,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.96500994446362,
+        "blocker_weight": 2.1032489299229393,
+        "parking_distance": 0.8280854904475848,
+        "goal_overlap": 0.6841961588583221,
+        "temperature": 0.8641755583147404,
+        "order_noise": 9.333731512141563
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 91,
+      "seed": 2373505064403356807,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.96500994446362,
+        "blocker_weight": 2.1032489299229393,
+        "parking_distance": 0.8280854904475848,
+        "goal_overlap": 0.6841961588583221,
+        "temperature": 0.8641755583147404,
+        "order_noise": 9.333731512141563
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 92,
+      "seed": 6657818686378579426,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.9850041611494749,
+        "blocker_weight": 3.8415646397894414,
+        "parking_distance": 0.6540594550730661,
+        "goal_overlap": 0.9561257186148894,
+        "temperature": 4.638541428339914,
+        "order_noise": 7.077805004443438
+      },
+      "raw_score": 58,
+      "refined_score": null
+    },
+    {
+      "trial": 93,
+      "seed": 2982789370462502888,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.9850041611494749,
+        "blocker_weight": 3.8415646397894414,
+        "parking_distance": 0.6540594550730661,
+        "goal_overlap": 0.9561257186148894,
+        "temperature": 4.638541428339914,
+        "order_noise": 7.077805004443438
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 94,
+      "seed": 6579063616292741970,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.007866722650968,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.7379261903892402,
+        "temperature": 1.8680917624331494,
+        "order_noise": 4.1257584872898985
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 95,
+      "seed": 2018963125718468411,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.007866722650968,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.7379261903892402,
+        "temperature": 1.8680917624331494,
+        "order_noise": 4.1257584872898985
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 96,
+      "seed": 5614098345644514351,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.3889633911745203,
+        "blocker_weight": 0.5607679432827369,
+        "parking_distance": 0.17686310685782747,
+        "goal_overlap": 2.492148783325205,
+        "temperature": 1.3111928142213807,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 97,
+      "seed": 1612238506898478816,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.3889633911745203,
+        "blocker_weight": 0.5607679432827369,
+        "parking_distance": 0.17686310685782747,
+        "goal_overlap": 2.492148783325205,
+        "temperature": 1.3111928142213807,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 57,
+      "refined_score": null
+    },
+    {
+      "trial": 98,
+      "seed": 4053767503998327961,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.8449622514081178,
+        "blocker_weight": 0.9914285699254405,
+        "parking_distance": 0.7215466154042309,
+        "goal_overlap": 1.267175135736194,
+        "temperature": 0.6023599122697862,
+        "order_noise": 3.8968299871768934
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 99,
+      "seed": 8576162526461679665,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.8449622514081178,
+        "blocker_weight": 0.9914285699254405,
+        "parking_distance": 0.7215466154042309,
+        "goal_overlap": 1.267175135736194,
+        "temperature": 0.6023599122697862,
+        "order_noise": 3.8968299871768934
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 100,
+      "seed": 4691263568923820015,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2306240525930043,
+        "blocker_weight": 0.428881285429575,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 101,
+      "seed": 579661573306652056,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2306240525930043,
+        "blocker_weight": 0.428881285429575,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 102,
+      "seed": 9118325579542366432,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.385760302042231,
+        "blocker_weight": 1.6513037129426766,
+        "parking_distance": 1.1000526396509804,
+        "goal_overlap": 1.629156890657017,
+        "temperature": 2.1379962200337426,
+        "order_noise": 4.1083805792935815
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 103,
+      "seed": 8718797246822125435,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.385760302042231,
+        "blocker_weight": 1.6513037129426766,
+        "parking_distance": 1.1000526396509804,
+        "goal_overlap": 1.629156890657017,
+        "temperature": 2.1379962200337426,
+        "order_noise": 4.1083805792935815
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 104,
+      "seed": 358361993023768445,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2178735560188658,
+        "blocker_weight": 1.165032871363867,
+        "parking_distance": 1.0340105487900229,
+        "goal_overlap": 5.092516650933264,
+        "temperature": 1.7564390048957887,
+        "order_noise": 4.771110062858499
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 105,
+      "seed": 1401149548372935789,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2178735560188658,
+        "blocker_weight": 1.165032871363867,
+        "parking_distance": 1.0340105487900229,
+        "goal_overlap": 5.092516650933264,
+        "temperature": 1.7564390048957887,
+        "order_noise": 4.771110062858499
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 106,
+      "seed": 7900123844309820066,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.11078647548426496,
+        "goal_overlap": 1.089687075541233,
+        "temperature": 1.366683173086845,
+        "order_noise": 3.7644160881247606
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 107,
+      "seed": 1827693701552370621,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.11078647548426496,
+        "goal_overlap": 1.089687075541233,
+        "temperature": 1.366683173086845,
+        "order_noise": 3.7644160881247606
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 108,
+      "seed": 9166211358840179356,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.9180848250495862,
+        "blocker_weight": 1.1479717201964983,
+        "parking_distance": 1.0331783015671898,
+        "goal_overlap": 2.2463230517800414,
+        "temperature": 0.806562695886791,
+        "order_noise": 5.903807680149099
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 109,
+      "seed": 1038325195936449977,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.9180848250495862,
+        "blocker_weight": 1.1479717201964983,
+        "parking_distance": 1.0331783015671898,
+        "goal_overlap": 2.2463230517800414,
+        "temperature": 0.806562695886791,
+        "order_noise": 5.903807680149099
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 110,
+      "seed": 8532308021456639710,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.47649069060596466,
+        "blocker_weight": 0.7153571902875312,
+        "parking_distance": 1.0435183541173156,
+        "goal_overlap": 3.4368143916054934,
+        "temperature": 0.7687633609499723,
+        "order_noise": 7.368261076562701
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 111,
+      "seed": 8257401187997584471,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.47649069060596466,
+        "blocker_weight": 0.7153571902875312,
+        "parking_distance": 1.0435183541173156,
+        "goal_overlap": 3.4368143916054934,
+        "temperature": 0.7687633609499723,
+        "order_noise": 7.368261076562701
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 112,
+      "seed": 68557410849935505,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.033349360159003,
+        "blocker_weight": 3.8268764247527103,
+        "parking_distance": 1.128364363786478,
+        "goal_overlap": 0.57733351617258,
+        "temperature": 0.23104833827787283,
+        "order_noise": 3.0
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 113,
+      "seed": 7156084593814341799,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.033349360159003,
+        "blocker_weight": 3.8268764247527103,
+        "parking_distance": 1.128364363786478,
+        "goal_overlap": 0.57733351617258,
+        "temperature": 0.23104833827787283,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 114,
+      "seed": 5434649641093504565,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.6493910410344698,
+        "blocker_weight": 3.158165738611256,
+        "parking_distance": 0.5804154057703766,
+        "goal_overlap": 0.28098203468239363,
+        "temperature": 0.8453825898896217,
+        "order_noise": 10.872377127704683
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 115,
+      "seed": 8820489367126341637,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.6493910410344698,
+        "blocker_weight": 3.158165738611256,
+        "parking_distance": 0.5804154057703766,
+        "goal_overlap": 0.28098203468239363,
+        "temperature": 0.8453825898896217,
+        "order_noise": 10.872377127704683
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 116,
+      "seed": 599375590640880305,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.11016326859103137,
+        "blocker_weight": 0.504383136668183,
+        "parking_distance": 1.0435183541173156,
+        "goal_overlap": 4.46789891773344,
+        "temperature": 1.2038295338046479,
+        "order_noise": 10.481392057350485
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 117,
+      "seed": 490273132183064672,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.11016326859103137,
+        "blocker_weight": 0.504383136668183,
+        "parking_distance": 1.0435183541173156,
+        "goal_overlap": 4.46789891773344,
+        "temperature": 1.2038295338046479,
+        "order_noise": 10.481392057350485
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 118,
+      "seed": 1753783062760876710,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.9180848250495862,
+        "blocker_weight": 0.9667718007540818,
+        "parking_distance": 1.5466310964073937,
+        "goal_overlap": 2.2463230517800414,
+        "temperature": 1.1193400604561667,
+        "order_noise": 8.100121376397082
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 119,
+      "seed": 8090019799718391714,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.9180848250495862,
+        "blocker_weight": 0.9667718007540818,
+        "parking_distance": 1.5466310964073937,
+        "goal_overlap": 2.2463230517800414,
+        "temperature": 1.1193400604561667,
+        "order_noise": 8.100121376397082
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 120,
+      "seed": 9151325374004365066,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.1576263430104143,
+        "parking_distance": 1.1366375467846985,
+        "goal_overlap": 1.0,
+        "temperature": 0.17370306939056063,
+        "order_noise": 3.2061756379459974
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 121,
+      "seed": 6358231948046233795,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.1576263430104143,
+        "parking_distance": 1.1366375467846985,
+        "goal_overlap": 1.0,
+        "temperature": 0.17370306939056063,
+        "order_noise": 3.2061756379459974
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 122,
+      "seed": 8685758559592131211,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.9180848250495862,
+        "blocker_weight": 0.798899406823841,
+        "parking_distance": 0.898789596930354,
+        "goal_overlap": 2.523441947507902,
+        "temperature": 1.1106967814038797,
+        "order_noise": 5.341984813011314
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 123,
+      "seed": 8391898145517952863,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.9180848250495862,
+        "blocker_weight": 0.798899406823841,
+        "parking_distance": 0.898789596930354,
+        "goal_overlap": 2.523441947507902,
+        "temperature": 1.1106967814038797,
+        "order_noise": 5.341984813011314
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 124,
+      "seed": 235915199653607803,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.3663738604366082,
+        "blocker_weight": 2.8823144064663873,
+        "parking_distance": 1.1362620254069125,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.8984303601921196,
+        "order_noise": 13.17284687391012
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 125,
+      "seed": 5663401477896282726,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.3663738604366082,
+        "blocker_weight": 2.8823144064663873,
+        "parking_distance": 1.1362620254069125,
+        "goal_overlap": 0.3771734466061817,
+        "temperature": 0.8984303601921196,
+        "order_noise": 13.17284687391012
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 126,
+      "seed": 1642700279058819455,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.8004726777036202,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.24507275401232137,
+        "goal_overlap": 3.405578288257967,
+        "temperature": 0.816915294576425,
+        "order_noise": 4.2241216099483445
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 127,
+      "seed": 18176281104390382,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.8004726777036202,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.24507275401232137,
+        "goal_overlap": 3.405578288257967,
+        "temperature": 0.816915294576425,
+        "order_noise": 4.2241216099483445
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 128,
+      "seed": 6677008881744072246,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.3210469270196394,
+        "blocker_weight": 2.9250895782123196,
+        "parking_distance": 0.7165814595779731,
+        "goal_overlap": 0.35979145480986785,
+        "temperature": 0.6235865500698182,
+        "order_noise": 8.56190655409258
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 129,
+      "seed": 6285815871236944111,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.3210469270196394,
+        "blocker_weight": 2.9250895782123196,
+        "parking_distance": 0.7165814595779731,
+        "goal_overlap": 0.35979145480986785,
+        "temperature": 0.6235865500698182,
+        "order_noise": 8.56190655409258
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 130,
+      "seed": 6903875733063697708,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2910606425397406,
+        "blocker_weight": 1.0888260703391897,
+        "parking_distance": 1.2779721666452968,
+        "goal_overlap": 1.899507399507466,
+        "temperature": 1.808368130216919,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 131,
+      "seed": 119285622083982421,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2910606425397406,
+        "blocker_weight": 1.0888260703391897,
+        "parking_distance": 1.2779721666452968,
+        "goal_overlap": 1.899507399507466,
+        "temperature": 1.808368130216919,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 132,
+      "seed": 4461191800964013435,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.9416815623331187,
+        "blocker_weight": 4.4434222227731475,
+        "parking_distance": 0.29082156569965356,
+        "goal_overlap": 1.6612432438162301,
+        "temperature": 2.6770884418938143,
+        "order_noise": 0.8538604624618831
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 133,
+      "seed": 5490760785568055123,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.9416815623331187,
+        "blocker_weight": 4.4434222227731475,
+        "parking_distance": 0.29082156569965356,
+        "goal_overlap": 1.6612432438162301,
+        "temperature": 2.6770884418938143,
+        "order_noise": 0.8538604624618831
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 134,
+      "seed": 2151590596572530230,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.4684424855664284,
+        "parking_distance": 0.8863512504785868,
+        "goal_overlap": 1.5308833412439822,
+        "temperature": 1.0019535464569995,
+        "order_noise": 7.061672329368257
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 135,
+      "seed": 1383031739731614660,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.4684424855664284,
+        "parking_distance": 0.8863512504785868,
+        "goal_overlap": 1.5308833412439822,
+        "temperature": 1.0019535464569995,
+        "order_noise": 7.061672329368257
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 136,
+      "seed": 3364010571165525124,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.6186379143439702,
+        "blocker_weight": 0.926508937036863,
+        "parking_distance": 1.3690708677867411,
+        "goal_overlap": 2.2463230517800414,
+        "temperature": 1.1193400604561667,
+        "order_noise": 8.94504563015381
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 137,
+      "seed": 2108023971934791468,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.6186379143439702,
+        "blocker_weight": 0.926508937036863,
+        "parking_distance": 1.3690708677867411,
+        "goal_overlap": 2.2463230517800414,
+        "temperature": 1.1193400604561667,
+        "order_noise": 8.94504563015381
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 138,
+      "seed": 6007976775262515899,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.6750974312526185,
+        "blocker_weight": 0.9675600135533043,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.47486955064171393,
+        "order_noise": 3.432004390953881
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 139,
+      "seed": 56798397474449548,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.6750974312526185,
+        "blocker_weight": 0.9675600135533043,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.47486955064171393,
+        "order_noise": 3.432004390953881
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 140,
+      "seed": 11060465799223899,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.6158422292593013,
+        "blocker_weight": 0.7978579552689923,
+        "parking_distance": 1.7322491874550285,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.2299287727116017,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 141,
+      "seed": 3219709457599083223,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.6158422292593013,
+        "blocker_weight": 0.7978579552689923,
+        "parking_distance": 1.7322491874550285,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.2299287727116017,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 142,
+      "seed": 7584609200915961881,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5984880793826447,
+        "blocker_weight": 0.798899406823841,
+        "parking_distance": 1.0435183541173156,
+        "goal_overlap": 2.122464877258053,
+        "temperature": 1.1193400604561667,
+        "order_noise": 7.368261076562701
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 143,
+      "seed": 2979974616528116872,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5984880793826447,
+        "blocker_weight": 0.798899406823841,
+        "parking_distance": 1.0435183541173156,
+        "goal_overlap": 2.122464877258053,
+        "temperature": 1.1193400604561667,
+        "order_noise": 7.368261076562701
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 144,
+      "seed": 6318761848400246536,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.34047499954117233,
+        "parking_distance": 0.9361228117555047,
+        "goal_overlap": 2.9555277747882145,
+        "temperature": 3.3005313874118736,
+        "order_noise": 9.76549613457791
+      },
+      "raw_score": 61,
+      "refined_score": null
+    },
+    {
+      "trial": 145,
+      "seed": 4301589384052619773,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.34047499954117233,
+        "parking_distance": 0.9361228117555047,
+        "goal_overlap": 2.9555277747882145,
+        "temperature": 3.3005313874118736,
+        "order_noise": 9.76549613457791
+      },
+      "raw_score": 57,
+      "refined_score": null
+    },
+    {
+      "trial": 146,
+      "seed": 8723197751332299626,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.1904779062208422,
+        "blocker_weight": 0.7201534863606374,
+        "parking_distance": 1.0563199763859878,
+        "goal_overlap": 1.2655218916605948,
+        "temperature": 4.2230007681950905,
+        "order_noise": 7.053559492727766
+      },
+      "raw_score": 61,
+      "refined_score": null
+    },
+    {
+      "trial": 147,
+      "seed": 465808602103645351,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.1904779062208422,
+        "blocker_weight": 0.7201534863606374,
+        "parking_distance": 1.0563199763859878,
+        "goal_overlap": 1.2655218916605948,
+        "temperature": 4.2230007681950905,
+        "order_noise": 7.053559492727766
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 148,
+      "seed": 8178788250072682482,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.3391881854786944,
+        "parking_distance": 0.9017489548966797,
+        "goal_overlap": 1.589380967716479,
+        "temperature": 0.39712708309695094,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 57,
+      "refined_score": null
+    },
+    {
+      "trial": 149,
+      "seed": 9217561501749610865,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.3391881854786944,
+        "parking_distance": 0.9017489548966797,
+        "goal_overlap": 1.589380967716479,
+        "temperature": 0.39712708309695094,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 150,
+      "seed": 5331260184914921240,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.093668969171882,
+        "blocker_weight": 2.341958316940071,
+        "parking_distance": 0.881676023324683,
+        "goal_overlap": 0.5482866912826035,
+        "temperature": 1.2781240020451798,
+        "order_noise": 9.322551462566013
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 151,
+      "seed": 3112978091491428940,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.093668969171882,
+        "blocker_weight": 2.341958316940071,
+        "parking_distance": 0.881676023324683,
+        "goal_overlap": 0.5482866912826035,
+        "temperature": 1.2781240020451798,
+        "order_noise": 9.322551462566013
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 152,
+      "seed": 6265380536153095919,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.320182040291231,
+        "blocker_weight": 0.10449097328064649,
+        "parking_distance": 0.685588000034079,
+        "goal_overlap": 2.467569364226718,
+        "temperature": 1.5766795988590325,
+        "order_noise": 10.879010734102708
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 153,
+      "seed": 2692552770655344455,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.320182040291231,
+        "blocker_weight": 0.10449097328064649,
+        "parking_distance": 0.685588000034079,
+        "goal_overlap": 2.467569364226718,
+        "temperature": 1.5766795988590325,
+        "order_noise": 10.879010734102708
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 154,
+      "seed": 1435479962794189645,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 1.684854744595806,
+        "parking_distance": 1.0,
+        "goal_overlap": 0.7710761674344084,
+        "temperature": 0.5,
+        "order_noise": 2.149689629644751
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 155,
+      "seed": 1089052291610839429,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 1.684854744595806,
+        "parking_distance": 1.0,
+        "goal_overlap": 0.7710761674344084,
+        "temperature": 0.5,
+        "order_noise": 2.149689629644751
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 156,
+      "seed": 5079509439760277633,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.8245452420626982,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 157,
+      "seed": 6088251032098948633,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.8245452420626982,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 158,
+      "seed": 8620759818989020970,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.007866722650968,
+        "blocker_weight": 0.6218994229012675,
+        "parking_distance": 0.7817047092207866,
+        "goal_overlap": 2.7379261903892402,
+        "temperature": 1.8482442776232149,
+        "order_noise": 4.1257584872898985
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 159,
+      "seed": 3349103336229758137,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.007866722650968,
+        "blocker_weight": 0.6218994229012675,
+        "parking_distance": 0.7817047092207866,
+        "goal_overlap": 2.7379261903892402,
+        "temperature": 1.8482442776232149,
+        "order_noise": 4.1257584872898985
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 160,
+      "seed": 8531168014975123566,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.8281853689605213,
+        "blocker_weight": 0.798899406823841,
+        "parking_distance": 0.9226738320378003,
+        "goal_overlap": 5.781919499291526,
+        "temperature": 1.1820129073313401,
+        "order_noise": 7.368261076562701
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 161,
+      "seed": 1811557415357104423,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.8281853689605213,
+        "blocker_weight": 0.798899406823841,
+        "parking_distance": 0.9226738320378003,
+        "goal_overlap": 5.781919499291526,
+        "temperature": 1.1820129073313401,
+        "order_noise": 7.368261076562701
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 162,
+      "seed": 2202157341509081043,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.444045646536426,
+        "blocker_weight": 1.1733885887697024,
+        "parking_distance": 0.9357804303099151,
+        "goal_overlap": 4.979460735684274,
+        "temperature": 3.693733483234727,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 163,
+      "seed": 542281585861357962,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.444045646536426,
+        "blocker_weight": 1.1733885887697024,
+        "parking_distance": 0.9357804303099151,
+        "goal_overlap": 4.979460735684274,
+        "temperature": 3.693733483234727,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 164,
+      "seed": 8879282170663479446,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.9194085971970898,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.9583067995750232,
+        "goal_overlap": 2.5984222449326277,
+        "temperature": 2.1017375258978777,
+        "order_noise": 3.441301902248265
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 165,
+      "seed": 3480318309401412400,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.9194085971970898,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.9583067995750232,
+        "goal_overlap": 2.5984222449326277,
+        "temperature": 2.1017375258978777,
+        "order_noise": 3.441301902248265
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 166,
+      "seed": 6277782251396658481,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 3.262484081965568,
+        "parking_distance": 0.6479728146992323,
+        "goal_overlap": 3.085861435242473,
+        "temperature": 1.6851703164214786,
+        "order_noise": 6.694582288706136
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 167,
+      "seed": 4351505324547720831,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 3.262484081965568,
+        "parking_distance": 0.6479728146992323,
+        "goal_overlap": 3.085861435242473,
+        "temperature": 1.6851703164214786,
+        "order_noise": 6.694582288706136
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 168,
+      "seed": 1434284195508295434,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.8897812311007938,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 3.382321798886115,
+        "temperature": 1.3910764880992148,
+        "order_noise": 7.6176837396632155
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 169,
+      "seed": 1074074928839351112,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.8897812311007938,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 3.382321798886115,
+        "temperature": 1.3910764880992148,
+        "order_noise": 7.6176837396632155
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 170,
+      "seed": 856794168076520970,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.7153507495290428,
+        "blocker_weight": 13.086208123053375,
+        "parking_distance": 0.9422877609190768,
+        "goal_overlap": 0.3334316098525566,
+        "temperature": 0.8453825898896217,
+        "order_noise": 8.521227899294102
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 171,
+      "seed": 2708947017265409012,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.7153507495290428,
+        "blocker_weight": 13.086208123053375,
+        "parking_distance": 0.9422877609190768,
+        "goal_overlap": 0.3334316098525566,
+        "temperature": 0.8453825898896217,
+        "order_noise": 8.521227899294102
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 172,
+      "seed": 5327792341239742203,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.43986117529831764,
+        "blocker_weight": 4.857735720992317,
+        "parking_distance": 0.20993298587460618,
+        "goal_overlap": 1.4546282594843127,
+        "temperature": 1.9562840314174423,
+        "order_noise": 2.104739119724042
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 173,
+      "seed": 426018192896582856,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.43986117529831764,
+        "blocker_weight": 4.857735720992317,
+        "parking_distance": 0.20993298587460618,
+        "goal_overlap": 1.4546282594843127,
+        "temperature": 1.9562840314174423,
+        "order_noise": 2.104739119724042
+      },
+      "raw_score": 57,
+      "refined_score": null
+    },
+    {
+      "trial": 174,
+      "seed": 8968031519748490614,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.3193423306894654,
+        "blocker_weight": 1.082137594264288,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.681335104303908,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.418505204222531
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 175,
+      "seed": 594588474479512686,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.3193423306894654,
+        "blocker_weight": 1.082137594264288,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.681335104303908,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.418505204222531
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 176,
+      "seed": 3334901718411855702,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2722536858364095,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 1.3077001192189974,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.9674640447043908,
+        "order_noise": 6.0753301304192355
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 177,
+      "seed": 424585082686186823,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2722536858364095,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 1.3077001192189974,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.9674640447043908,
+        "order_noise": 6.0753301304192355
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 178,
+      "seed": 3081416571941634036,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.3193423306894654,
+        "blocker_weight": 1.151220628436039,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 1.7326084183698154,
+        "order_noise": 4.482190289802113
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 179,
+      "seed": 8771314916841916547,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.3193423306894654,
+        "blocker_weight": 1.151220628436039,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 1.7326084183698154,
+        "order_noise": 4.482190289802113
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 180,
+      "seed": 8417587235894681940,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.7897549802307195,
+        "blocker_weight": 0.765473124561438,
+        "parking_distance": 1.237894793297853,
+        "goal_overlap": 1.7952355021223079,
+        "temperature": 0.5928685313986198,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 181,
+      "seed": 8059155988154596982,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.7897549802307195,
+        "blocker_weight": 0.765473124561438,
+        "parking_distance": 1.237894793297853,
+        "goal_overlap": 1.7952355021223079,
+        "temperature": 0.5928685313986198,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 182,
+      "seed": 3703661167952340922,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.2585596412848077,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 0.6732362394665959,
+        "temperature": 1.1051958657860954,
+        "order_noise": 4.37495102900863
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 183,
+      "seed": 8564924814741406876,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.2585596412848077,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 0.6732362394665959,
+        "temperature": 1.1051958657860954,
+        "order_noise": 4.37495102900863
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 184,
+      "seed": 2791606001305250035,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.409507088485299,
+        "blocker_weight": 3.019153732117497,
+        "parking_distance": 2.5143227128555354,
+        "goal_overlap": 2.5936282705875833,
+        "temperature": 4.103095413029462,
+        "order_noise": 8.863165219174732
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 185,
+      "seed": 2866514152547544228,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.409507088485299,
+        "blocker_weight": 3.019153732117497,
+        "parking_distance": 2.5143227128555354,
+        "goal_overlap": 2.5936282705875833,
+        "temperature": 4.103095413029462,
+        "order_noise": 8.863165219174732
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 186,
+      "seed": 3602393545499860764,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.0,
+        "blocker_weight": 0.46357355249827237,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.6832203793732037,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.047930938743257
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 187,
+      "seed": 7580281786748833260,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.0,
+        "blocker_weight": 0.46357355249827237,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.6832203793732037,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.047930938743257
+      },
+      "raw_score": 61,
+      "refined_score": null
+    },
+    {
+      "trial": 188,
+      "seed": 509711387434460336,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.7914815513188632,
+        "blocker_weight": 2.360549378793533,
+        "parking_distance": 0.7829964660737171,
+        "goal_overlap": 1.5654134260871506,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 189,
+      "seed": 4267394009628861346,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.7914815513188632,
+        "blocker_weight": 2.360549378793533,
+        "parking_distance": 0.7829964660737171,
+        "goal_overlap": 1.5654134260871506,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 190,
+      "seed": 6899106303014255080,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.25977307408411154,
+        "blocker_weight": 1.8369478444843679,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.681335104303908,
+        "temperature": 1.6876857752577692,
+        "order_noise": 5.418505204222531
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 191,
+      "seed": 5834875969836069541,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.25977307408411154,
+        "blocker_weight": 1.8369478444843679,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.681335104303908,
+        "temperature": 1.6876857752577692,
+        "order_noise": 5.418505204222531
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 192,
+      "seed": 176260354085807256,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.8770732887718912,
+        "parking_distance": 0.8600178838501458,
+        "goal_overlap": 1.8359522983955767,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.151268635064125
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 193,
+      "seed": 3790251280946198843,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.8770732887718912,
+        "parking_distance": 0.8600178838501458,
+        "goal_overlap": 1.8359522983955767,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.151268635064125
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 194,
+      "seed": 3683885043415281717,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.40772829707353664,
+        "blocker_weight": 0.8280954294503409,
+        "parking_distance": 0.9147188937260344,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 1.7326084183698154,
+        "order_noise": 1.7385739687226132
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 195,
+      "seed": 1594698246607121384,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.40772829707353664,
+        "blocker_weight": 0.8280954294503409,
+        "parking_distance": 0.9147188937260344,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 1.7326084183698154,
+        "order_noise": 1.7385739687226132
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 196,
+      "seed": 6614022138814602598,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.8896870513338802,
+        "parking_distance": 0.8029953355086368,
+        "goal_overlap": 2.51271364827889,
+        "temperature": 1.3760474582743838,
+        "order_noise": 8.816631501439392
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 197,
+      "seed": 2328532885153088244,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.8896870513338802,
+        "parking_distance": 0.8029953355086368,
+        "goal_overlap": 2.51271364827889,
+        "temperature": 1.3760474582743838,
+        "order_noise": 8.816631501439392
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 198,
+      "seed": 4966990110312342569,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.3696280238545304,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.2269572113946159,
+        "temperature": 1.7326084183698154,
+        "order_noise": 6.140067206952802
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 199,
+      "seed": 8502751662021940131,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.3696280238545304,
+        "parking_distance": 0.8430188138216419,
+        "goal_overlap": 1.2269572113946159,
+        "temperature": 1.7326084183698154,
+        "order_noise": 6.140067206952802
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 200,
+      "seed": 6896630898922646123,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5106573757812539,
+        "blocker_weight": 1.81364639347443,
+        "parking_distance": 1.1049409104514358,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 2.271815730425745,
+        "order_noise": 6.736212401638263
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 201,
+      "seed": 2881337385294974616,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.5106573757812539,
+        "blocker_weight": 1.81364639347443,
+        "parking_distance": 1.1049409104514358,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 2.271815730425745,
+        "order_noise": 6.736212401638263
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 202,
+      "seed": 80681642022935392,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.32493417265212154,
+        "blocker_weight": 1.0029312983352194,
+        "parking_distance": 0.9530683299827957,
+        "goal_overlap": 1.681335104303908,
+        "temperature": 2.5811288519885798,
+        "order_noise": 5.519207525072053
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 203,
+      "seed": 8091124787663088917,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.32493417265212154,
+        "blocker_weight": 1.0029312983352194,
+        "parking_distance": 0.9530683299827957,
+        "goal_overlap": 1.681335104303908,
+        "temperature": 2.5811288519885798,
+        "order_noise": 5.519207525072053
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 204,
+      "seed": 4758666093222855783,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2545875051408883,
+        "blocker_weight": 0.7940417893638888,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.9616425019932624,
+        "temperature": 1.6835258571567357,
+        "order_noise": 16.351852516437624
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 205,
+      "seed": 2028153463292693687,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2545875051408883,
+        "blocker_weight": 0.7940417893638888,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.9616425019932624,
+        "temperature": 1.6835258571567357,
+        "order_noise": 16.351852516437624
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 206,
+      "seed": 4105976329206152824,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.44454485530709875,
+        "blocker_weight": 1.9980821807930211,
+        "parking_distance": 0.33700148075241687,
+        "goal_overlap": 0.39508266521082436,
+        "temperature": 2.2619549356880517,
+        "order_noise": 3.076758448008288
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 207,
+      "seed": 1385452191103181409,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.44454485530709875,
+        "blocker_weight": 1.9980821807930211,
+        "parking_distance": 0.33700148075241687,
+        "goal_overlap": 0.39508266521082436,
+        "temperature": 2.2619549356880517,
+        "order_noise": 3.076758448008288
+      },
+      "raw_score": 58,
+      "refined_score": null
+    },
+    {
+      "trial": 208,
+      "seed": 1459413680227086963,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.0418850579220875,
+        "parking_distance": 0.8865438863704904,
+        "goal_overlap": 1.4520701159975746,
+        "temperature": 1.1051958657860954,
+        "order_noise": 4.412777998933424
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 209,
+      "seed": 1577611104354618666,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.0418850579220875,
+        "parking_distance": 0.8865438863704904,
+        "goal_overlap": 1.4520701159975746,
+        "temperature": 1.1051958657860954,
+        "order_noise": 4.412777998933424
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 210,
+      "seed": 6776555659681234412,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.3816764332685163,
+        "parking_distance": 1.2858858651338438,
+        "goal_overlap": 1.6924132495442008,
+        "temperature": 1.9743480202043109,
+        "order_noise": 6.491217306898869
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 211,
+      "seed": 9118684453538778641,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.3816764332685163,
+        "parking_distance": 1.2858858651338438,
+        "goal_overlap": 1.6924132495442008,
+        "temperature": 1.9743480202043109,
+        "order_noise": 6.491217306898869
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 212,
+      "seed": 6189299086059715564,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.9434226217947304,
+        "blocker_weight": 0.24000270748089914,
+        "parking_distance": 2.5673231499196674,
+        "goal_overlap": 1.3530914891561105,
+        "temperature": 4.049203846641779,
+        "order_noise": 11.1419360734341
+      },
+      "raw_score": 63,
+      "refined_score": null
+    },
+    {
+      "trial": 213,
+      "seed": 276767065572496850,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.9434226217947304,
+        "blocker_weight": 0.24000270748089914,
+        "parking_distance": 2.5673231499196674,
+        "goal_overlap": 1.3530914891561105,
+        "temperature": 4.049203846641779,
+        "order_noise": 11.1419360734341
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 214,
+      "seed": 7961702442735023030,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.5463010071092285,
+        "blocker_weight": 3.3308985179889525,
+        "parking_distance": 3.4167482341022137,
+        "goal_overlap": 2.464257492568799,
+        "temperature": 3.7541264340219183,
+        "order_noise": 5.6872297230165465
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 215,
+      "seed": 1440942939500272315,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.5463010071092285,
+        "blocker_weight": 3.3308985179889525,
+        "parking_distance": 3.4167482341022137,
+        "goal_overlap": 2.464257492568799,
+        "temperature": 3.7541264340219183,
+        "order_noise": 5.6872297230165465
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 216,
+      "seed": 2675346056614432113,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.532899362207888,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.5900243487026638,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.8936900131377664,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 217,
+      "seed": 6282603109648164419,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.532899362207888,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.5900243487026638,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.8936900131377664,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 218,
+      "seed": 7191502593203049252,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.391559255821763,
+        "blocker_weight": 0.4922450796853619,
+        "parking_distance": 0.7579011476292715,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.286087887283755,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 219,
+      "seed": 7194929392636492716,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.391559255821763,
+        "blocker_weight": 0.4922450796853619,
+        "parking_distance": 0.7579011476292715,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.286087887283755,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 220,
+      "seed": 7256399354670633321,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 44,
+      "refined_score": null
+    },
+    {
+      "trial": 221,
+      "seed": 32890304706689058,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 222,
+      "seed": 4835422174701383048,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.5159031511292937,
+        "blocker_weight": 1.2153490849403739,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.9896993891425119,
+        "temperature": 1.7898960925339558,
+        "order_noise": 4.580708620764113
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 223,
+      "seed": 4657625992644828326,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.5159031511292937,
+        "blocker_weight": 1.2153490849403739,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.9896993891425119,
+        "temperature": 1.7898960925339558,
+        "order_noise": 4.580708620764113
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 224,
+      "seed": 6853235002230660365,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.943927082835037,
+        "blocker_weight": 3.527506459661467,
+        "parking_distance": 2.8061412324673807,
+        "goal_overlap": 0.8344254387055594,
+        "temperature": 2.9730297208837158,
+        "order_noise": 3.8714216257390235
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 225,
+      "seed": 3770426509028896958,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.943927082835037,
+        "blocker_weight": 3.527506459661467,
+        "parking_distance": 2.8061412324673807,
+        "goal_overlap": 0.8344254387055594,
+        "temperature": 2.9730297208837158,
+        "order_noise": 3.8714216257390235
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 226,
+      "seed": 4043713851702539718,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.8724964529035953,
+        "blocker_weight": 2.1679668599741913,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 227,
+      "seed": 6873089959026450757,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.8724964529035953,
+        "blocker_weight": 2.1679668599741913,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 228,
+      "seed": 2075015602942762052,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.3723154583200197,
+        "blocker_weight": 0.6201304465455688,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.455886496499101,
+        "temperature": 1.3550793167535042,
+        "order_noise": 4.075155612571912
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 229,
+      "seed": 3498071652406902217,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.3723154583200197,
+        "blocker_weight": 0.6201304465455688,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.455886496499101,
+        "temperature": 1.3550793167535042,
+        "order_noise": 4.075155612571912
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 230,
+      "seed": 495271809204560100,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.2748806333168452,
+        "parking_distance": 0.3144419387857529,
+        "goal_overlap": 2.2158605576475146,
+        "temperature": 1.7326084183698154,
+        "order_noise": 4.570753109020707
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 231,
+      "seed": 2054643059038795012,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.2748806333168452,
+        "parking_distance": 0.3144419387857529,
+        "goal_overlap": 2.2158605576475146,
+        "temperature": 1.7326084183698154,
+        "order_noise": 4.570753109020707
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 232,
+      "seed": 9060756632159993630,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.3335506828415769,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.707198667579539,
+        "temperature": 1.579191445929283,
+        "order_noise": 8.028426754016662
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 233,
+      "seed": 7501372536986308668,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.3335506828415769,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.707198667579539,
+        "temperature": 1.579191445929283,
+        "order_noise": 8.028426754016662
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 234,
+      "seed": 8668472434356731855,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.7089022168445194,
+        "blocker_weight": 3.448648871756434,
+        "parking_distance": 0.7457981173983237,
+        "goal_overlap": 2.8087919670141286,
+        "temperature": 1.8433421797138254,
+        "order_noise": 4.7071840637827425
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 235,
+      "seed": 2962165045635764501,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.7089022168445194,
+        "blocker_weight": 3.448648871756434,
+        "parking_distance": 0.7457981173983237,
+        "goal_overlap": 2.8087919670141286,
+        "temperature": 1.8433421797138254,
+        "order_noise": 4.7071840637827425
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 236,
+      "seed": 2373872462450602476,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.8688455692455715,
+        "order_noise": 7.102618497794782
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 237,
+      "seed": 7466620333305305162,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.8688455692455715,
+        "order_noise": 7.102618497794782
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 238,
+      "seed": 3945916937430441927,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.23421379993146973,
+        "blocker_weight": 1.2712519588032973,
+        "parking_distance": 1.4600695050427392,
+        "goal_overlap": 1.6924132495442008,
+        "temperature": 1.9743480202043109,
+        "order_noise": 3.5721133687150735
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 239,
+      "seed": 4049386007882501133,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.23421379993146973,
+        "blocker_weight": 1.2712519588032973,
+        "parking_distance": 1.4600695050427392,
+        "goal_overlap": 1.6924132495442008,
+        "temperature": 1.9743480202043109,
+        "order_noise": 3.5721133687150735
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 240,
+      "seed": 4530185303767943337,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.48355357404553717,
+        "blocker_weight": 1.9676081475305733,
+        "parking_distance": 0.7642563269737983,
+        "goal_overlap": 1.2310859550089583,
+        "temperature": 0.23736612903311582,
+        "order_noise": 5.4583698168668295
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 241,
+      "seed": 3073857717423200088,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.48355357404553717,
+        "blocker_weight": 1.9676081475305733,
+        "parking_distance": 0.7642563269737983,
+        "goal_overlap": 1.2310859550089583,
+        "temperature": 0.23736612903311582,
+        "order_noise": 5.4583698168668295
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 242,
+      "seed": 8633781382818306083,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.34947118414791867,
+        "blocker_weight": 0.8609816851828423,
+        "parking_distance": 1.1640353771135186,
+        "goal_overlap": 1.2269572113946159,
+        "temperature": 1.7326084183698154,
+        "order_noise": 6.180799566888472
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 243,
+      "seed": 8963863147491408441,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.34947118414791867,
+        "blocker_weight": 0.8609816851828423,
+        "parking_distance": 1.1640353771135186,
+        "goal_overlap": 1.2269572113946159,
+        "temperature": 1.7326084183698154,
+        "order_noise": 6.180799566888472
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 244,
+      "seed": 4365547449107847268,
+      "reverse": true,
+      "policy": {
+        "path_weight": 3.6277570675757067,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.753760663289909,
+        "temperature": 1.067000909167183,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 245,
+      "seed": 244941829343640558,
+      "reverse": true,
+      "policy": {
+        "path_weight": 3.6277570675757067,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.753760663289909,
+        "temperature": 1.067000909167183,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 246,
+      "seed": 958606267408147272,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.881014642039627,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.2912857598462368,
+        "goal_overlap": 1.0,
+        "temperature": 0.19555735147995615,
+        "order_noise": 2.523575611031289
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 247,
+      "seed": 7728485053695893883,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.881014642039627,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.2912857598462368,
+        "goal_overlap": 1.0,
+        "temperature": 0.19555735147995615,
+        "order_noise": 2.523575611031289
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 248,
+      "seed": 8522590231173635762,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.40325327233807184,
+        "blocker_weight": 2.0083896853136043,
+        "parking_distance": 1.0309748879022187,
+        "goal_overlap": 2.7468523730457415,
+        "temperature": 4.225837961782174,
+        "order_noise": 16.814524090798717
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 249,
+      "seed": 6377606640503949765,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.40325327233807184,
+        "blocker_weight": 2.0083896853136043,
+        "parking_distance": 1.0309748879022187,
+        "goal_overlap": 2.7468523730457415,
+        "temperature": 4.225837961782174,
+        "order_noise": 16.814524090798717
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 250,
+      "seed": 445544365764440149,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.1908687243798242,
+        "blocker_weight": 0.8033710660561066,
+        "parking_distance": 2.9189760914815444,
+        "goal_overlap": 1.1452381742306377,
+        "temperature": 3.171460952940345,
+        "order_noise": 10.415680415717771
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 251,
+      "seed": 2843036956398027845,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.1908687243798242,
+        "blocker_weight": 0.8033710660561066,
+        "parking_distance": 2.9189760914815444,
+        "goal_overlap": 1.1452381742306377,
+        "temperature": 3.171460952940345,
+        "order_noise": 10.415680415717771
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 252,
+      "seed": 1157952163883809093,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.992663081483352,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 0.8188745919125323,
+        "order_noise": 5.369576934462883
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 253,
+      "seed": 1920721087200447636,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.992663081483352,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.163146396566547,
+        "temperature": 0.8188745919125323,
+        "order_noise": 5.369576934462883
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 254,
+      "seed": 8148069597734019162,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.2452732551504322,
+        "temperature": 2.075121884567743,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 255,
+      "seed": 4442017110691265161,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.2452732551504322,
+        "temperature": 2.075121884567743,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 256,
+      "seed": 4905969687457331708,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2970995909306993,
+        "blocker_weight": 1.6392701658858755,
+        "parking_distance": 3.160654339159039,
+        "goal_overlap": 2.1022034103773986,
+        "temperature": 3.745737986712197,
+        "order_noise": 11.41551006268156
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 257,
+      "seed": 6030074516520172219,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2970995909306993,
+        "blocker_weight": 1.6392701658858755,
+        "parking_distance": 3.160654339159039,
+        "goal_overlap": 2.1022034103773986,
+        "temperature": 3.745737986712197,
+        "order_noise": 11.41551006268156
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 258,
+      "seed": 3302990331612418318,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.46989526848239027,
+        "blocker_weight": 1.3696280238545304,
+        "parking_distance": 1.3315074519360979,
+        "goal_overlap": 1.2269572113946159,
+        "temperature": 1.7326084183698154,
+        "order_noise": 6.140067206952802
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 259,
+      "seed": 1560208636958954049,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.46989526848239027,
+        "blocker_weight": 1.3696280238545304,
+        "parking_distance": 1.3315074519360979,
+        "goal_overlap": 1.2269572113946159,
+        "temperature": 1.7326084183698154,
+        "order_noise": 6.140067206952802
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 260,
+      "seed": 2317285292055852584,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2147503870792384,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.3435495709591419,
+        "goal_overlap": 1.3619877680758243,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.491334995351174
+      },
+      "raw_score": 63,
+      "refined_score": null
+    },
+    {
+      "trial": 261,
+      "seed": 6479981414779303575,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2147503870792384,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.3435495709591419,
+        "goal_overlap": 1.3619877680758243,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.491334995351174
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 262,
+      "seed": 3492251017124696292,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 2.0375201098076148,
+        "parking_distance": 0.587905838789073,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.7554631735365804,
+        "order_noise": 5.710495657603506
+      },
+      "raw_score": 52,
+      "refined_score": null
+    },
+    {
+      "trial": 263,
+      "seed": 9037701572204433940,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 2.0375201098076148,
+        "parking_distance": 0.587905838789073,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.7554631735365804,
+        "order_noise": 5.710495657603506
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 264,
+      "seed": 7052424582075966173,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.9030570547882029,
+        "blocker_weight": 3.113147194734281,
+        "parking_distance": 1.3236248680983058,
+        "goal_overlap": 0.34941204190132424,
+        "temperature": 0.3518805768788619,
+        "order_noise": 2.8170997133572673
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 265,
+      "seed": 2728322218288955678,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.9030570547882029,
+        "blocker_weight": 3.113147194734281,
+        "parking_distance": 1.3236248680983058,
+        "goal_overlap": 0.34941204190132424,
+        "temperature": 0.3518805768788619,
+        "order_noise": 2.8170997133572673
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 266,
+      "seed": 4298222914688825808,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.8036429056056849,
+        "blocker_weight": 3.71062832615368,
+        "parking_distance": 2.3726785812672087,
+        "goal_overlap": 2.5869440336203637,
+        "temperature": 0.35913747763447024,
+        "order_noise": 10.277834136997091
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 267,
+      "seed": 5822599875487862126,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.8036429056056849,
+        "blocker_weight": 3.71062832615368,
+        "parking_distance": 2.3726785812672087,
+        "goal_overlap": 2.5869440336203637,
+        "temperature": 0.35913747763447024,
+        "order_noise": 10.277834136997091
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 268,
+      "seed": 3644608766087049390,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2367150294877827,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.3225597294437418,
+        "goal_overlap": 2.4932039571933413,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 269,
+      "seed": 6474522722521911450,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2367150294877827,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.3225597294437418,
+        "goal_overlap": 2.4932039571933413,
+        "temperature": 1.7326084183698154,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 45,
+      "refined_score": null
+    },
+    {
+      "trial": 270,
+      "seed": 4763981081255704484,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.7157941940634092,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.8061245581363058,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.7764085494804281,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 51,
+      "refined_score": null
+    },
+    {
+      "trial": 271,
+      "seed": 144153814950878277,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.7157941940634092,
+        "blocker_weight": 1.3899048639624034,
+        "parking_distance": 0.8061245581363058,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 0.7764085494804281,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 272,
+      "seed": 2373154232942741300,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.37559978002085015,
+        "blocker_weight": 0.6973220820968484,
+        "parking_distance": 1.1392724015019002,
+        "goal_overlap": 0.8204853159386024,
+        "temperature": 1.5410329992573173,
+        "order_noise": 6.611953296609439
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 273,
+      "seed": 5680936447035382410,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.37559978002085015,
+        "blocker_weight": 0.6973220820968484,
+        "parking_distance": 1.1392724015019002,
+        "goal_overlap": 0.8204853159386024,
+        "temperature": 1.5410329992573173,
+        "order_noise": 6.611953296609439
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 274,
+      "seed": 6201434921849143844,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.079653300019444,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.503653343792637,
+        "temperature": 1.3087454769145914,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 275,
+      "seed": 8353825540442455528,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.079653300019444,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 2.503653343792637,
+        "temperature": 1.3087454769145914,
+        "order_noise": 5.460395506172597
+      },
+      "raw_score": 53,
+      "refined_score": null
+    },
+    {
+      "trial": 276,
+      "seed": 5244234856157725453,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.1090218257348234,
+        "blocker_weight": 1.6445920370995215,
+        "parking_distance": 1.1285620247811323,
+        "goal_overlap": 2.323131944259016,
+        "temperature": 1.1051958657860954,
+        "order_noise": 6.312321813560602
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 277,
+      "seed": 4717105255612488940,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.1090218257348234,
+        "blocker_weight": 1.6445920370995215,
+        "parking_distance": 1.1285620247811323,
+        "goal_overlap": 2.323131944259016,
+        "temperature": 1.1051958657860954,
+        "order_noise": 6.312321813560602
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 278,
+      "seed": 1816091693268525117,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2305838038910288,
+        "blocker_weight": 0.9622152819031986,
+        "parking_distance": 1.0556799255807878,
+        "goal_overlap": 3.4614913850278777,
+        "temperature": 1.1250494067165717,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 279,
+      "seed": 7454656464500563857,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.2305838038910288,
+        "blocker_weight": 0.9622152819031986,
+        "parking_distance": 1.0556799255807878,
+        "goal_overlap": 3.4614913850278777,
+        "temperature": 1.1250494067165717,
+        "order_noise": 7.955661179924812
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 280,
+      "seed": 7371812610477832185,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9952073883071886,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.028455038400654
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 281,
+      "seed": 5569380461912014791,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 0.9952073883071886,
+        "parking_distance": 0.7679886301571708,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.1051958657860954,
+        "order_noise": 7.028455038400654
+      },
+      "raw_score": 55,
+      "refined_score": null
+    },
+    {
+      "trial": 282,
+      "seed": 4123431347942260186,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.8571057720037354,
+        "blocker_weight": 1.1042600075689828,
+        "parking_distance": 0.36147436936381505,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 2.105648178113873,
+        "order_noise": 5.403142902916242
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 283,
+      "seed": 554911016451087642,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.8571057720037354,
+        "blocker_weight": 1.1042600075689828,
+        "parking_distance": 0.36147436936381505,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 2.105648178113873,
+        "order_noise": 5.403142902916242
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 284,
+      "seed": 1063251933267535047,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.1376045309207545,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 1.757887136513314,
+        "goal_overlap": 2.5515784860619024,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.2519004106917855
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 285,
+      "seed": 5344219824528355141,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.1376045309207545,
+        "blocker_weight": 0.9383453440018911,
+        "parking_distance": 1.757887136513314,
+        "goal_overlap": 2.5515784860619024,
+        "temperature": 1.1051958657860954,
+        "order_noise": 5.2519004106917855
+      },
+      "raw_score": 56,
+      "refined_score": null
+    },
+    {
+      "trial": 286,
+      "seed": 8680843244527987827,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.3816764332685163,
+        "parking_distance": 2.4207675038806937,
+        "goal_overlap": 1.3495794474086584,
+        "temperature": 2.0445527904489755,
+        "order_noise": 16.18300772249143
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 287,
+      "seed": 1789525169984795407,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.30620605982366655,
+        "blocker_weight": 1.3816764332685163,
+        "parking_distance": 2.4207675038806937,
+        "goal_overlap": 1.3495794474086584,
+        "temperature": 2.0445527904489755,
+        "order_noise": 16.18300772249143
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 288,
+      "seed": 4066323046924372115,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2367150294877827,
+        "blocker_weight": 1.6408547477864248,
+        "parking_distance": 0.34399048866413273,
+        "goal_overlap": 2.491481625390512,
+        "temperature": 1.7326084183698154,
+        "order_noise": 2.4470181669865383
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 289,
+      "seed": 2344355060482576880,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.2367150294877827,
+        "blocker_weight": 1.6408547477864248,
+        "parking_distance": 0.34399048866413273,
+        "goal_overlap": 2.491481625390512,
+        "temperature": 1.7326084183698154,
+        "order_noise": 2.4470181669865383
+      },
+      "raw_score": 49,
+      "refined_score": null
+    },
+    {
+      "trial": 290,
+      "seed": 8387710700647573861,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.48004841444243235,
+        "blocker_weight": 4.3660329799445545,
+        "parking_distance": 1.0588918737206745,
+        "goal_overlap": 0.616247022754492,
+        "temperature": 0.9638569414252485,
+        "order_noise": 1.4250114153795685
+      },
+      "raw_score": 54,
+      "refined_score": null
+    },
+    {
+      "trial": 291,
+      "seed": 5123198839488336439,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.48004841444243235,
+        "blocker_weight": 4.3660329799445545,
+        "parking_distance": 1.0588918737206745,
+        "goal_overlap": 0.616247022754492,
+        "temperature": 0.9638569414252485,
+        "order_noise": 1.4250114153795685
+      },
+      "raw_score": 46,
+      "refined_score": null
+    },
+    {
+      "trial": 292,
+      "seed": 3948898207092239276,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 2.570356509789423,
+        "parking_distance": 0.6055888810827152,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.3823397051506332,
+        "order_noise": 6.718107819008227
+      },
+      "raw_score": 48,
+      "refined_score": null
+    },
+    {
+      "trial": 293,
+      "seed": 320980596136507260,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.684246428330418,
+        "blocker_weight": 2.570356509789423,
+        "parking_distance": 0.6055888810827152,
+        "goal_overlap": 1.8553979575435495,
+        "temperature": 1.3823397051506332,
+        "order_noise": 6.718107819008227
+      },
+      "raw_score": 47,
+      "refined_score": null
+    },
+    {
+      "trial": 294,
+      "seed": 4145045196855622887,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.25080779586772434,
+        "blocker_weight": 3.5977209421204757,
+        "parking_distance": 0.5275903334328369,
+        "goal_overlap": 1.9736728463587823,
+        "temperature": 2.5654805541451293,
+        "order_noise": 11.650296911170335
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 295,
+      "seed": 6108998255754727772,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.25080779586772434,
+        "blocker_weight": 3.5977209421204757,
+        "parking_distance": 0.5275903334328369,
+        "goal_overlap": 1.9736728463587823,
+        "temperature": 2.5654805541451293,
+        "order_noise": 11.650296911170335
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 296,
+      "seed": 5383739301416750971,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.5106573757812539,
+        "blocker_weight": 1.4531032983585566,
+        "parking_distance": 1.109386421993431,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 3.257373261111375,
+        "order_noise": 14.645064714191815
+      },
+      "raw_score": 50,
+      "refined_score": null
+    },
+    {
+      "trial": 297,
+      "seed": 3782130110802883551,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.5106573757812539,
+        "blocker_weight": 1.4531032983585566,
+        "parking_distance": 1.109386421993431,
+        "goal_overlap": 1.9558961249700322,
+        "temperature": 3.257373261111375,
+        "order_noise": 14.645064714191815
+      },
+      "raw_score": 58,
+      "refined_score": null
+    },
+    {
+      "trial": 298,
+      "seed": 3156064008826834282,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.8571809885813834,
+        "blocker_weight": 0.846471868703754,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.1972798736226691,
+        "order_noise": 3.0
+      },
+      "raw_score": 43,
+      "refined_score": 40
+    },
+    {
+      "trial": 299,
+      "seed": 2571270322345092770,
+      "reverse": false,
+      "policy": {
+        "path_weight": 0.8571809885813834,
+        "blocker_weight": 0.846471868703754,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.1972798736226691,
+        "order_noise": 3.0
+      },
+      "raw_score": 48,
+      "refined_score": null
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "puzzle_sha256": "70a88505e646d9bb3f81dd9a4887dd02f26b83570530476d46498a664eb66bb3",
+  "champion_moves": 37,
+  "fresh_reproduction_moves": 37,
+  "fresh_reproduction_matches": true,
+  "reproduction_python": "3.13.15",
+  "verified_benchmark_solutions": [
+    {
+      "file": "benchmarks/solutions/adaptive-11.json",
+      "moves": 43
+    },
+    {
+      "file": "benchmarks/solutions/adaptive-23.json",
+      "moves": 43
+    },
+    {
+      "file": "benchmarks/solutions/adaptive-37.json",
+      "moves": 43
+    },
+    {
+      "file": "benchmarks/solutions/adaptive-53.json",
+      "moves": 45
+    },
+    {
+      "file": "benchmarks/solutions/adaptive-71.json",
+      "moves": 43
+    },
+    {
+      "file": "benchmarks/solutions/adaptive_refined-11.json",
+      "moves": 40
+    },
+    {
+      "file": "benchmarks/solutions/adaptive_refined-23.json",
+      "moves": 40
+    },
+    {
+      "file": "benchmarks/solutions/adaptive_refined-37.json",
+      "moves": 40
+    },
+    {
+      "file": "benchmarks/solutions/adaptive_refined-53.json",
+      "moves": 40
+    },
+    {
+      "file": "benchmarks/solutions/adaptive_refined-71.json",
+      "moves": 40
+    },
+    {
+      "file": "benchmarks/solutions/fixed-11.json",
+      "moves": 42
+    },
+    {
+      "file": "benchmarks/solutions/fixed-23.json",
+      "moves": 43
+    },
+    {
+      "file": "benchmarks/solutions/fixed-37.json",
+      "moves": 43
+    },
+    {
+      "file": "benchmarks/solutions/fixed-53.json",
+      "moves": 43
+    },
+    {
+      "file": "benchmarks/solutions/fixed-71.json",
+      "moves": 42
+    }
+  ],
+  "checks": {
+    "full_suite_python_3_13": {
+      "tests": 26,
+      "passed": 26,
+      "skipped": 0
+    },
+    "ruff_check": "passed",
+    "ruff_format": "passed",
+    "sdist_and_wheel_build": "passed",
+    "git_diff_check": "passed",
+    "replay_visual_desktop_and_360px": "passed",
+    "remote_ci": "configured, not executed"
+  },
+  "upstream_commit": "f40b338af841bcbcbe402770e5e07610b3397c14"
+}

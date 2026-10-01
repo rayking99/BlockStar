@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "puzzle_sha256": "def6600914c99e4e5abdc05e942aee641e5136eb7443181d6fc4ae2e11a8f6fe",
+  "puzzle": "Larger yard: 24 pieces and two fixed obstacles",
+  "config": {
+    "trials": 16,
+    "seed": 0,
+    "adaptive": true,
+    "optimize_passes": 2,
+    "refine_margin": 3,
+    "explore": false
+  },
+  "environment": {
+    "python": "3.14.6",
+    "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64"
+  },
+  "elapsed_seconds": 4.887345166993327,
+  "trials": 16,
+  "successes": 4,
+  "failures": 12,
+  "raw_best": 82,
+  "best_score": 71,
+  "lower_bound": 44,
+  "refinements": 2,
+  "incumbents": [
+    {
+      "trial": 2,
+      "raw_score": 91,
+      "score": 81,
+      "elapsed_seconds": 1.830950167030096
+    },
+    {
+      "trial": 3,
+      "raw_score": 82,
+      "score": 71,
+      "elapsed_seconds": 2.9932016250677407
+    }
+  ],
+  "elites": [
+    {
+      "mean_raw_cost": 86.5,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 87.0,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.1071954087765774,
+        "parking_distance": 0.7532583760939394,
+        "goal_overlap": 1.188440779793872,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 480.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      }
+    },
+    {
+      "mean_raw_cost": 480.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.8334697104740871,
+        "blocker_weight": 4.540564425976676,
+        "parking_distance": 2.018747423269561,
+        "goal_overlap": 0.8455135331991115,
+        "temperature": 3.7790210207861197,
+        "order_noise": 7.4204279601039795
+      }
+    },
+    {
+      "mean_raw_cost": 480.0,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.2435288951283603,
+        "blocker_weight": 4.494191439839968,
+        "parking_distance": 2.735935727661765,
+        "goal_overlap": 1.41642814635814,
+        "temperature": 0.503506040341829,
+        "order_noise": 5.210062025445405
+      }
+    },
+    {
+      "mean_raw_cost": 480.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.622867797760592,
+        "blocker_weight": 1.302461551959797,
+        "parking_distance": 3.2201113080520893,
+        "goal_overlap": 1.646097911506768,
+        "temperature": 0.07020850082009478,
+        "order_noise": 8.63645623684745
+      }
+    },
+    {
+      "mean_raw_cost": 480.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.7349878562066934,
+        "blocker_weight": 2.8375537031033593,
+        "parking_distance": 0.9544637144608807,
+        "goal_overlap": 2.90262075087043,
+        "temperature": 4.01589734639935,
+        "order_noise": 5.375634857226844
+      }
+    },
+    {
+      "mean_raw_cost": 480.0,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.3831892520878437,
+        "blocker_weight": 1.302461551959797,
+        "parking_distance": 3.2201113080520893,
+        "goal_overlap": 1.646097911506768,
+        "temperature": 0.0,
+        "order_noise": 10.127595261452843
+      }
+    }
+  ],
+  "records": [
+    {
+      "trial": 0,
+      "seed": 7106521602475165645,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 1,
+      "seed": 746805015404516437,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 2,
+      "seed": 8963783824838420066,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 91,
+      "refined_score": 81
+    },
+    {
+      "trial": 3,
+      "seed": 6604845167042249220,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.0,
+        "parking_distance": 1.0,
+        "goal_overlap": 1.0,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 82,
+      "refined_score": 71
+    },
+    {
+      "trial": 4,
+      "seed": 2710959347947821323,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.8334697104740871,
+        "blocker_weight": 4.540564425976676,
+        "parking_distance": 2.018747423269561,
+        "goal_overlap": 0.8455135331991115,
+        "temperature": 3.7790210207861197,
+        "order_noise": 7.4204279601039795
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 5,
+      "seed": 1821862095355237593,
+      "reverse": true,
+      "policy": {
+        "path_weight": 1.8334697104740871,
+        "blocker_weight": 4.540564425976676,
+        "parking_distance": 2.018747423269561,
+        "goal_overlap": 0.8455135331991115,
+        "temperature": 3.7790210207861197,
+        "order_noise": 7.4204279601039795
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 6,
+      "seed": 3771948619523626940,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.2435288951283603,
+        "blocker_weight": 4.494191439839968,
+        "parking_distance": 2.735935727661765,
+        "goal_overlap": 1.41642814635814,
+        "temperature": 0.503506040341829,
+        "order_noise": 5.210062025445405
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 7,
+      "seed": 8166251064029171718,
+      "reverse": false,
+      "policy": {
+        "path_weight": 2.2435288951283603,
+        "blocker_weight": 4.494191439839968,
+        "parking_distance": 2.735935727661765,
+        "goal_overlap": 1.41642814635814,
+        "temperature": 0.503506040341829,
+        "order_noise": 5.210062025445405
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 8,
+      "seed": 6145258598325499690,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.622867797760592,
+        "blocker_weight": 1.302461551959797,
+        "parking_distance": 3.2201113080520893,
+        "goal_overlap": 1.646097911506768,
+        "temperature": 0.07020850082009478,
+        "order_noise": 8.63645623684745
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 9,
+      "seed": 1161854816982873064,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.622867797760592,
+        "blocker_weight": 1.302461551959797,
+        "parking_distance": 3.2201113080520893,
+        "goal_overlap": 1.646097911506768,
+        "temperature": 0.07020850082009478,
+        "order_noise": 8.63645623684745
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 10,
+      "seed": 9025748028497998475,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.7349878562066934,
+        "blocker_weight": 2.8375537031033593,
+        "parking_distance": 0.9544637144608807,
+        "goal_overlap": 2.90262075087043,
+        "temperature": 4.01589734639935,
+        "order_noise": 5.375634857226844
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 11,
+      "seed": 5560711798030284561,
+      "reverse": true,
+      "policy": {
+        "path_weight": 0.7349878562066934,
+        "blocker_weight": 2.8375537031033593,
+        "parking_distance": 0.9544637144608807,
+        "goal_overlap": 2.90262075087043,
+        "temperature": 4.01589734639935,
+        "order_noise": 5.375634857226844
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 12,
+      "seed": 1480320165050284328,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.1071954087765774,
+        "parking_distance": 0.7532583760939394,
+        "goal_overlap": 1.188440779793872,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 85,
+      "refined_score": null
+    },
+    {
+      "trial": 13,
+      "seed": 4344240190802814501,
+      "reverse": false,
+      "policy": {
+        "path_weight": 1.0,
+        "blocker_weight": 2.1071954087765774,
+        "parking_distance": 0.7532583760939394,
+        "goal_overlap": 1.188440779793872,
+        "temperature": 0.5,
+        "order_noise": 3.0
+      },
+      "raw_score": 89,
+      "refined_score": null
+    },
+    {
+      "trial": 14,
+      "seed": 3144833606538086968,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.3831892520878437,
+        "blocker_weight": 1.302461551959797,
+        "parking_distance": 3.2201113080520893,
+        "goal_overlap": 1.646097911506768,
+        "temperature": 0.0,
+        "order_noise": 10.127595261452843
+      },
+      "raw_score": null,
+      "refined_score": null
+    },
+    {
+      "trial": 15,
+      "seed": 7860731987896637149,
+      "reverse": true,
+      "policy": {
+        "path_weight": 2.3831892520878437,
+        "blocker_weight": 1.302461551959797,
+        "parking_distance": 3.2201113080520893,
+        "goal_overlap": 1.646097911506768,
+        "temperature": 0.0,
+        "order_noise": 10.127595261452843
+      },
+      "raw_score": null,
+      "refined_score": null
+    }
+  ]
+}

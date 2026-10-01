@@ -1,0 +1,9 @@
+{
+  "folders": [{"path": ".", "name": "BlockStar"}],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.testing.unittestEnabled": true,
+    "python.testing.unittestArgs": ["-s", "tests", "-v"],
+    "files.exclude": {"**/__pycache__": true}
+  }
+}

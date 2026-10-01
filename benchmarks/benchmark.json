@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "puzzle_sha256": "70a88505e646d9bb3f81dd9a4887dd02f26b83570530476d46498a664eb66bb3",
+  "trials_per_search": 300,
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "environment": {
+    "python": "3.14.6",
+    "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64"
+  },
+  "budget_note": "Equal rollout budgets; refinement adds compute. Times include replay and refinement.",
+  "summary": {
+    "fixed": {
+      "successful_searches": 5,
+      "searches": 5,
+      "best": 42,
+      "worst": 43,
+      "median": 43,
+      "mean": 42.6,
+      "rollout_success_rate": 0.726,
+      "total_seconds": 37.34180449997075
+    },
+    "adaptive": {
+      "successful_searches": 5,
+      "searches": 5,
+      "best": 43,
+      "worst": 45,
+      "median": 43,
+      "mean": 43.4,
+      "rollout_success_rate": 0.8533333333333334,
+      "total_seconds": 31.04623299802188
+    },
+    "adaptive_refined": {
+      "successful_searches": 5,
+      "searches": 5,
+      "best": 40,
+      "worst": 40,
+      "median": 40,
+      "mean": 40,
+      "rollout_success_rate": 0.8533333333333334,
+      "total_seconds": 33.01691862475127
+    }
+  },
+  "runs": [
+    {
+      "trials": 300,
+      "successes": 225,
+      "failures": 75,
+      "raw_best": 42,
+      "best_score": 42,
+      "elapsed_seconds": 7.579340417054482,
+      "method": "fixed",
+      "seed": 11
+    },
+    {
+      "trials": 300,
+      "successes": 202,
+      "failures": 98,
+      "raw_best": 43,
+      "best_score": 43,
+      "elapsed_seconds": 7.334822583012283,
+      "method": "fixed",
+      "seed": 23
+    },
+    {
+      "trials": 300,
+      "successes": 221,
+      "failures": 79,
+      "raw_best": 43,
+      "best_score": 43,
+      "elapsed_seconds": 7.6433424999704584,
+      "method": "fixed",
+      "seed": 37
+    },
+    {
+      "trials": 300,
+      "successes": 212,
+      "failures": 88,
+      "raw_best": 43,
+      "best_score": 43,
+      "elapsed_seconds": 7.25779891689308,
+      "method": "fixed",
+      "seed": 53
+    },
+    {
+      "trials": 300,
+      "successes": 229,
+      "failures": 71,
+      "raw_best": 42,
+      "best_score": 42,
+      "elapsed_seconds": 7.526500083040446,
+      "method": "fixed",
+      "seed": 71
+    },
+    {
+      "trials": 300,
+      "successes": 268,
+      "failures": 32,
+      "raw_best": 43,
+      "best_score": 43,
+      "elapsed_seconds": 6.3617462910478935,
+      "method": "adaptive",
+      "seed": 11
+    },
+    {
+      "trials": 300,
+      "successes": 239,
+      "failures": 61,
+      "raw_best": 43,
+      "best_score": 43,
+      "elapsed_seconds": 6.710972832981497,
+      "method": "adaptive",
+      "seed": 23
+    },
+    {
+      "trials": 300,
+      "successes": 274,
+      "failures": 26,
+      "raw_best": 43,
+      "best_score": 43,
+      "elapsed_seconds": 5.844741333043203,
+      "method": "adaptive",
+      "seed": 37
+    },
+    {
+      "trials": 300,
+      "successes": 246,
+      "failures": 54,
+      "raw_best": 45,
+      "best_score": 45,
+      "elapsed_seconds": 5.978423499967903,
+      "method": "adaptive",
+      "seed": 53
+    },
+    {
+      "trials": 300,
+      "successes": 253,
+      "failures": 47,
+      "raw_best": 43,
+      "best_score": 43,
+      "elapsed_seconds": 6.150349040981382,
+      "method": "adaptive",
+      "seed": 71
+    },
+    {
+      "trials": 300,
+      "successes": 268,
+      "failures": 32,
+      "raw_best": 43,
+      "best_score": 40,
+      "elapsed_seconds": 6.8785714589757845,
+      "method": "adaptive_refined",
+      "seed": 11
+    },
+    {
+      "trials": 300,
+      "successes": 239,
+      "failures": 61,
+      "raw_best": 43,
+      "best_score": 40,
+      "elapsed_seconds": 7.011062207981013,
+      "method": "adaptive_refined",
+      "seed": 23
+    },
+    {
+      "trials": 300,
+      "successes": 274,
+      "failures": 26,
+      "raw_best": 43,
+      "best_score": 40,
+      "elapsed_seconds": 6.460026582935825,
+      "method": "adaptive_refined",
+      "seed": 37
+    },
+    {
+      "trials": 300,
+      "successes": 246,
+      "failures": 54,
+      "raw_best": 45,
+      "best_score": 40,
+      "elapsed_seconds": 6.140347832930274,
+      "method": "adaptive_refined",
+      "seed": 53
+    },
+    {
+      "trials": 300,
+      "successes": 253,
+      "failures": 47,
+      "raw_best": 43,
+      "best_score": 40,
+      "elapsed_seconds": 6.526910541928373,
+      "method": "adaptive_refined",
+      "seed": 71
+    }
+  ]
+}

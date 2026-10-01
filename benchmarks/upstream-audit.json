@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "puzzle_sha256": "70a88505e646d9bb3f81dd9a4887dd02f26b83570530476d46498a664eb66bb3",
+  "source": "results.txt",
+  "records": 883,
+  "valid": 882,
+  "invalid": 1,
+  "duplicates": 13,
+  "best": 85,
+  "median": 119.0,
+  "mean": 132.81972789115648,
+  "worst": 314,
+  "rejections": [
+    {
+      "line": 183,
+      "reason": "Move 7 ['W', 'right', 4]: collides with C"
+    }
+  ]
+}
